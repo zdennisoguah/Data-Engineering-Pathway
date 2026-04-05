@@ -1,0 +1,501 @@
+trip_id,driver_id,driver_name,rider_id,pickup_city,pickup_location,dropoff_city,dropoff_location,request_time,pickup_time,dropoff_time,distance_km,fare_amount,surge_multiplier,payment_type,trip_status,rating,vehicle_type
+T001,D111,Yusuf Lawal,R263,Lagos,Victoria Island,Lagos,Sangotedo,2024-01-29 10:47:00,2024-01-29 10:51:00,2024-01-29 11:52:00,14.8,2560.0,1.0,cash,completed,3.4,bike
+T002,D112,Adaeze Obi,R315,Ibadan,Agodi,Ibadan,Ring Road,2024-02-21 14:51:00,2024-02-21 14:54:00,2024-02-21 15:35:00,11.2,2175.0,1.5,cash,completed,4.9,sedan
+T003,D110,Sade Williams,R318,Port Harcourt,GRA Phase 2,Port Harcourt,Trans Amadi,2024-02-18 09:59:00,,,6.3,1044.0,1.2,cash,cancelled,,sedan
+T004,D102,Amara Nwosu,R363,Kano,Sabon Gari,Kano,Kofar Mata,2024-02-07 11:23:00,2024-02-07 11:31:00,2024-02-07 11:53:00,5.4,740.0,1.0,wallet,completed,4.5,sedan
+T005,D109,Chidi Okafor,R397,Abuja,Jabi,Abuja,Garki,2024-01-18 13:52:00,2024-01-18 13:55:00,2024-01-18 14:59:00,18.9,2730.0,1.0,card,completed,3.6,sedan
+T006,D103,Tunde Alabi,R338,Abuja,Jabi,Abuja,Gwarinpa,2024-01-31 19:57:00,2024-01-31 20:09:00,2024-01-31 21:02:00,13.2,1760.0,1.0,cash,completed,4.7,bike
+T007,D107,Bello Musa,R336,Kano,Kofar Mata,Kano,Bompai,2024-01-31 06:43:00,2024-01-31 06:57:00,2024-01-31 07:12:00,3.4,696.0,1.2,,completed,3.7,suv
+T008,D109,Chidi Okafor,R361,Abuja,Gwarinpa,Abuja,Wuse 2,2024-02-03 22:38:00,2024-02-03 22:44:00,2024-02-03 23:18:00,7.1,2340.0,2.0,cash,completed,4.3,sedan
+T009,D113,Rotimi Adeyemi,R262,Port Harcourt,GRA Phase 3,Port Harcourt,GRA Phase 2,2024-02-20 08:05:00,2024-02-20 08:19:00,2024-02-20 09:21:00,13.9,3440.0,2.0,card,completed,4.9,suv
+T010,D115,Musa Danjuma,R303,Ibadan,Ring Road,Ibadan,Agodi,2024-02-25 17:28:00,2024-02-25 17:39:00,2024-02-25 18:06:00,7.4,1000.0,1.0,wallet,completed,3.6,sedan
+T011,D115,Musa Danjuma,R332,Lagos,Oshodi,Lagos,Lekki Phase 2,2024-01-30 14:42:00,2024-01-30 14:52:00,2024-01-30 15:25:00,9.5,1830.0,1.5,card,completed,3.5,sedan
+T012,D112,Adaeze Obi,R304,Lagos,Ikeja,Lagos,Lekki Phase 1,2024-02-05 09:15:00,2024-02-05 09:21:00,2024-02-05 09:47:00,7.8,1725.0,1.5,cash,completed,4.8,sedan
+T013,D111,Yusuf Lawal,R393,Ibadan,Bodija,Ibadan,Ring Road,2024-01-30 11:26:00,2024-01-30 11:36:00,2024-01-30 11:56:00,6.1,1050.0,1.0,card,completed,3.7,bike
+T014,D113,Rotimi Adeyemi,R249,Ibadan,Agodi,Ibadan,Ring Road,2024-02-02 12:03:00,2024-02-02 12:15:00,2024-02-02 12:50:00,11.5,1704.0,1.2,card,completed,4.1,suv
+T015,D103,Tunde Alabi,R304,Lagos,Lekki Phase 2,Lagos,Ajah,2024-01-22 13:37:00,2024-01-22 13:49:00,2024-01-22 14:10:00,5.8,1440.0,2.0,cash,completed,4.4,bike
+T016,D108,Kemi Adeleke,R318,Port Harcourt,GRA Phase 2,Port Harcourt,GRA Phase 3,2024-02-23 09:04:00,2024-02-23 09:15:00,2024-02-23 09:55:00,8.5,1380.0,1.2,card,completed,3.7,sedan
+T017,D113,Rotimi Adeyemi,R370,Ibadan,Bodija,Ibadan,Agodi,2024-01-21 10:16:00,2024-01-21 10:20:00,2024-01-21 10:55:00,10.0,1640.0,1.0,cash,completed,4.5,suv
+T018,D115,Musa Danjuma,R271,Lagos,Lekki Phase 2,Lagos,Berger,2024-01-17 06:21:00,2024-01-17 06:36:00,2024-01-17 07:00:00,5.5,980.0,1.0,card,completed,4.2,sedan
+T019,D101,Emeka Eze,R233,Port Harcourt,GRA Phase 3,Port Harcourt,Rumuola,2024-01-17 15:23:00,2024-01-17 15:38:00,2024-01-17 16:54:00,22.4,3288.0,1.2,cash,completed,3.8,sedan
+T020,D115,Musa Danjuma,R246,Abuja,Wuse,Abuja,Maitama,2024-02-10 06:11:00,,,18.1,4530.0,1.5,cash,cancelled,,sedan
+T021,D104,Funke Osei,R290,Abuja,Wuse,Abuja,Asokoro,2024-02-03 13:14:00,2024-02-03 13:17:00,2024-02-03 14:35:00,16.5,2856.0,1.2,card,completed,4.4,suv
+T022,D102,Amara Nwosu,R268,Port Harcourt,  GRA Phase 3,Port Harcourt,Trans Amadi,2024-01-17 09:38:00,2024-01-17 09:47:00,2024-01-17 10:23:00,8.6,2145.0,1.5,cash,completed,3.9,sedan
+T023,D115,Musa Danjuma,R311,Ibadan,Ring Road,Ibadan,Agodi,2024-01-19 16:39:00,,,10.3,1572.0,1.2,card,cancelled,,sedan
+T024,D107,Bello Musa,R278,Abuja,Gwarinpa,Abuja,Jabi,2024-02-09 06:19:00,2024-02-09 06:26:00,2024-02-09 06:56:00,7.8,1560.0,1.2,cash,completed,4.1,suv
+T025,D105,Chukwuemeka Okonkwo,R224,Ibadan,Challenge,Ibadan,Dugbe,2024-01-30 15:14:00,2024-01-30 15:29:00,2024-01-30 15:55:00,5.3,640.0,1.0,cash,completed,4.0,sedan
+T026,D107,Bello Musa,R377,Abuja,Maitama,Abuja,Wuse,2024-01-15 09:49:00,2024-01-15 09:58:00,2024-01-15 10:29:00,7.9,2660.0,2.0,cash,completed,4.9,suv
+T027,D109,Chidi Okafor,R357,Ibadan,Dugbe,Ibadan,Challenge,2024-02-16 19:53:00,2024-02-16 20:04:00,2024-02-16 20:34:00,7.7,1500.0,1.5,card,completed,4.6,sedan
+T028,D105,Chukwuemeka Okonkwo,R282,Abuja,Garki,Abuja,Asokoro,2024-02-18 08:08:00,2024-02-18 08:13:00,2024-02-18 08:39:00,8.4,1360.0,1.0,card,completed,4.2,sedan
+T029,D110,Sade Williams,R323,Lagos,VI,Lagos,Agege,2024-01-15 17:19:00,2024-01-15 17:34:00,,10.0,2595.0,1.5,wallet,cancelled,,sedan
+T030,D107,Bello Musa,R243,Port Harcourt,Trans Amadi,Port Harcourt,Rumuola,2024-02-13 10:39:00,2024-02-13 10:50:00,2024-02-13 11:06:00,5.3,760.0,1.0,cash,completed,4.8,suv
+T031,D106,Ngozi Adeyemi,R265,Kano,Sabon Gari,Kano,Kofar Mata,2024-01-20 21:01:00,2024-01-20 21:15:00,2024-01-20 21:39:00,7.0,1512.0,1.2,cash,completed,4.6,sedan
+T032,,,R320,Kano,Nassarawa,Kano,Sabon Gari,2024-01-31 17:10:00,2024-01-31 17:22:00,2024-01-31 17:59:00,8.3,1370.0,1.0,card,completed,3.4,bike
+T033,D107,Bello Musa,R377,Abuja,Wuse 2,Abuja,Jabi,2024-02-24 13:06:00,2024-02-24 13:20:00,2024-02-24 14:31:00,15.5,2650.0,1.0,cash,completed,3.8,suv
+T034,D114,Blessing Eze,R311,Kano,Bompai,Kano,Nassarawa,2024-02-07 20:45:00,2024-02-07 20:50:00,2024-02-07 21:18:00,6.7,1320.0,1.2,card,completed,4.0,sedan
+T035,D115,Musa Danjuma,R263,Lagos,Ajah,Lagos,Magodo,2024-02-13 18:21:00,2024-02-13 18:24:00,2024-02-13 19:13:00,14.6,3045.0,1.5,card,completed,3.7,sedan
+T036,D104,Funke Osei,R326,Lagos,Gbagada,Lagos,Berger,2024-02-19 13:44:00,2024-02-19 13:54:00,2024-02-19 14:46:00,16.5,2470.0,1.0,card,completed,4.4,suv
+T037,D107,Bello Musa,R380,Ibadan,Dugbe,Ibadan,Agodi,2024-02-13 14:19:00,2024-02-13 14:26:00,2024-02-13 14:39:00,4.2,816.0,1.2,cash,completed,3.5,suv
+T038,D110,Sade Williams,R276,Port Harcourt,GRA Phase 2,Port Harcourt,GRA Phase 3,2024-01-29 17:11:00,2024-01-29 17:18:00,2024-01-29 17:32:00,4.8,876.0,1.2,wallet,completed,3.7,sedan
+T039,D101,Emeka Eze,R323,Ibadan,Dugbe,Ibadan,Challenge,2024-02-12 16:11:00,2024-02-12 16:14:00,2024-02-12 16:33:00,4.2,720.0,1.0,card,completed,3.3,sedan
+T040,D105,Chukwuemeka Okonkwo,R343,Lagos,Gbagada,Lagos,Ikeja,2024-02-10 13:49:00,2024-02-10 14:00:00,2024-02-10 14:45:00,9.7,2040.0,1.2,card,completed,4.2,sedan
+T041,D111,Yusuf Lawal,R221,Abuja,Garki,Abuja,Wuse,2024-01-25 13:11:00,2024-01-25 13:22:00,2024-01-25 13:57:00,8.2,1470.0,1.5,card,completed,3.3,bike
+T042,D104,Funke Osei,R230,Port Harcourt,GRA Phase 3,Port Harcourt,Rumuola,2024-02-18 13:41:00,2024-02-18 13:46:00,2024-02-18 14:34:00,15.4,2610.0,1.0,wallet,completed,4.5,suv
+T043,,,R313,Kano,Sabon Gari,Kano,Kofar Mata,2024-01-20 07:56:00,2024-01-20 08:05:00,,10.1,1580.0,1.0,wallet,cancelled,,sedan
+T044,D113,Rotimi Adeyemi,R367,Abuja,Asokoro,Abuja,Jabi,2024-02-12 14:11:00,2024-02-12 14:23:00,2024-02-12 15:06:00,11.0,1850.0,1.0,card,completed,3.8,suv
+T045,D111,Yusuf Lawal,R317,Kano,Kofar Mata,Kano,Nassarawa,2024-01-20 16:16:00,2024-01-20 16:24:00,2024-01-20 16:40:00,3.5,1180.0,2.0,wallet,completed,4.0,bike
+T046,D108,Kemi Adeleke,R341,Lagos,Maryland,Lagos,Sangotedo,2024-01-23 15:28:00,2024-01-23 15:42:00,2024-01-23 16:54:00,16.5,2010.0,1.0,wallet,completed,3.2,sedan
+T047,D102,Amara Nwosu,R275,Abuja,Asokoro,Abuja,Wuse,2024-02-16 14:26:00,2024-02-16 14:36:00,2024-02-16 15:52:00,23.4,6300.0,2.0,wallet,completed,4.1,sedan
+T048,D107,Bello Musa,R273,Port Harcourt,Rumuola,Port Harcourt,GRA Phase 2,2024-02-03 21:55:00,2024-02-03 22:00:00,2024-02-03 22:45:00,11.0,1968.0,1.2,card,completed,4.0,suv
+T049,D104,Funke Osei,R391,Kano,Nassarawa,Kano,Bompai,2024-02-14 18:24:00,2024-02-14 18:37:00,2024-02-14 19:18:00,10.5,1670.0,1.0,cash,completed,4.1,suv
+T050,D109,Chidi Okafor,R305,Kano,Nassarawa,Kano,Sabon Gari,2024-02-25 10:04:00,2024-02-25 10:14:00,2024-02-25 11:06:00,12.1,2475.0,1.5,wallet,completed,3.9,sedan
+T051,D101,Emeka Eze,R362,Ibadan,Bodija,Ibadan,Dugbe,2024-02-02 13:47:00,2024-02-02 13:51:00,,7.8,980.0,1.0,card,cancelled,,sedan
+T052,D103,Tunde Alabi,R345,Abuja,Gwarinpa,Abuja,Asokoro,2024-01-26 11:11:00,2024-01-26 11:15:00,2024-01-26 12:18:00,15.8,2260.0,1.0,cash,completed,3.6,bike
+T053,D108,Kemi Adeleke,R314,Port Harcourt,GRA Phase 3,Port Harcourt,GRA Phase 2,2024-02-06 15:40:00,2024-02-06 15:49:00,2024-02-06 16:38:00,14.6,2580.0,1.2,card,completed,3.4,sedan
+T054,D101,Emeka Eze,R345,Kano,Sabon Gari,Kano,Nassarawa,2024-01-18 21:53:00,2024-01-18 22:00:00,2024-01-18 22:42:00,12.3,1968.0,1.2,wallet,completed,3.7,sedan
+T055,D102,Amara Nwosu,R209,Lagos,Sangotedo,Lagos,Magodo,2024-02-21 17:46:00,2024-02-21 17:51:00,2024-02-21 18:11:00,6.2,1290.0,1.5,wallet,completed,4.8,sedan
+T056,D115,Musa Danjuma,R230,Kano,Sabon Gari,Kano,Bompai,2024-02-13 08:09:00,2024-02-13 08:24:00,2024-02-13 09:20:00,11.4,2925.0,1.5,card,completed,3.4,sedan
+T057,D112,Adaeze Obi,R296,Port Harcourt,Trans Amadi,Port Harcourt,Rumuola,2024-01-21 13:30:00,2024-01-21 13:33:00,2024-01-21 14:27:00,11.3,2400.0,1.2,cash,completed,4.3,sedan
+T058,D101,Emeka Eze,R230,Lagos,Sangotedo,Lagos,Ikoyi,2024-01-21 13:56:00,2024-01-21 14:07:00,,6.7,1980.0,2.0,cash,cancelled,,sedan
+T059,D105,Chukwuemeka Okonkwo,R314,Lagos,Mushin,Lagos,Maryland,2024-02-12 13:54:00,,,5.5,1780.0,2.0,card,cancelled,,sedan
+T060,D102,Amara Nwosu,R353,Abuja,Jabi,Abuja,Wuse,2024-01-16 07:50:00,2024-01-16 07:58:00,2024-01-16 08:31:00,10.8,1380.0,1.0,cash,completed,4.3,sedan
+T061,D110,Sade Williams,R234,Lagos,Ajah,Lagos,Surulere,2024-02-18 14:51:00,2024-02-18 14:56:00,2024-02-18 15:12:00,5.3,920.0,1.0,wallet,completed,3.8,sedan
+T062,D112,Adaeze Obi,R400,Lagos,Magodo,Lagos,Berger,2024-02-07 22:37:00,,,14.3,1910.0,1.0,wallet,cancelled,,sedan
+T063,D107,Bello Musa,R219,Lagos,Magodo,Lagos,Berger,2024-01-20 16:38:00,2024-01-20 16:43:00,2024-01-20 17:08:00,5.8,1580.0,2.0,wallet,completed,4.2,suv
+T064,D114,Blessing Eze,R316,Ibadan,Ring Road,Ibadan,Challenge,2024-01-29 19:21:00,,,5.7,1116.0,1.2,card,cancelled,,sedan
+T065,D102,Amara Nwosu,R234,Kano,Nassarawa,Kano,Bompai,2024-02-19 07:37:00,2024-02-19 07:48:00,,8.1,1950.0,1.5,card,cancelled,,sedan
+T066,D110,Sade Williams,R369,Ibadan,Ring Road,Ibadan,Dugbe,2024-02-14 13:54:00,2024-02-14 13:58:00,2024-02-14 14:23:00,5.6,860.0,1.0,cash,completed,4.7,sedan
+T067,D111,Yusuf Lawal,R208,Ibadan,Bodija,Ibadan,Agodi,2024-01-26 14:44:00,2024-01-26 14:59:00,2024-01-26 15:18:00,5.7,800.0,1.0,wallet,completed,4.4,bike
+T068,D109,Chidi Okafor,R317,Abuja,Asokoro,Abuja,Gwarinpa,2024-02-05 11:23:00,2024-02-05 11:30:00,2024-02-05 12:42:00,15.2,2530.0,1.0,cash,completed,4.6,sedan
+T069,D110,Sade Williams,R256,Kano,Bompai,Kano,Sabon Gari,2024-02-16 09:22:00,2024-02-16 09:31:00,2024-02-16 09:45:00,3.6,870.0,1.5,cash,completed,3.6,sedan
+T070,D113,Rotimi Adeyemi,R275,Abuja,Wuse,Abuja,Garki,2024-02-04 09:00:00,2024-02-04 09:10:00,2024-02-04 10:30:00,19.8,3885.0,1.5,wallet,completed,4.2,suv
+T071,D107,Bello Musa,R281,Lagos,Berger,Lagos,Lekki Phase 2,2024-02-20 19:36:00,2024-02-20 19:45:00,2024-02-20 20:54:00,18.3,2660.0,1.0,cash,completed,4.6,suv
+T072,D114,Blessing Eze,R351,Lagos,Gbagada,Lagos,Berger,2024-02-09 22:05:00,2024-02-09 22:14:00,2024-02-09 23:23:00,18.9,3120.0,1.0,cash,completed,4.1,sedan
+T073,D112,Adaeze Obi,R238,Abuja,Maitama,Abuja,Wuse 2,2024-01-31 12:11:00,2024-01-31 12:23:00,,7.1,1170.0,1.0,card,cancelled,,sedan
+T074,D111,Yusuf Lawal,R239,Ibadan,Dugbe,Ibadan,Agodi,2024-02-12 08:30:00,2024-02-12 08:40:00,2024-02-12 09:08:00,7.6,1270.0,1.0,card,completed,4.0,bike
+T075,D114,Blessing Eze,R319,Lagos,Ikoyi,Lagos,Agege,2024-02-21 07:28:00,2024-02-21 07:43:00,2024-02-21 08:51:00,17.2,3390.0,1.5,card,completed,3.4,sedan
+T076,D103,Tunde Alabi,R313,Lagos,Gbagada,Lagos,Magodo,2024-02-17 22:39:00,2024-02-17 22:44:00,2024-02-17 23:20:00,9.5,2490.0,1.5,wallet,completed,3.3,bike
+T077,D107,Bello Musa,R369,Port Harcourt,Rumuola,Port Harcourt,Trans Amadi,2024-02-22 10:21:00,,,14.9,2304.0,1.2,card,cancelled,,suv
+T078,D106,Ngozi Adeyemi,R390,Abuja,Jabi,Abuja,Wuse,2024-02-17 08:41:00,2024-02-17 08:54:00,2024-02-17 09:40:00,12.8,2184.0,1.2,card,completed,4.9,sedan
+T079,D114,Blessing Eze,R390,Lagos,Ikoyi,Lagos,VI,2024-02-17 07:42:00,2024-02-17 07:50:00,2024-02-17 08:56:00,20.0,4710.0,1.5,wallet,completed,4.7,sedan
+T080,D104,Funke Osei,R393,Kano,Kofar Mata,Kano,Sabon Gari,2024-02-12 13:34:00,2024-02-12 13:40:00,2024-02-12 14:05:00,5.3,1350.0,1.5,card,completed,4.4,suv
+T081,D109,Chidi Okafor,R252,Ibadan,Agodi,Ibadan,Ring Road,2024-02-22 10:55:00,2024-02-22 11:02:00,2024-02-22 11:13:00,2.9,516.0,1.2,wallet,completed,4.7,sedan
+T082,D103,Tunde Alabi,R316,Kano,Nassarawa,Kano,Sabon Gari,2024-02-06 06:26:00,2024-02-06 06:29:00,2024-02-06 07:04:00,7.2,1545.0,1.5,cash,completed,3.3,bike
+T083,D103,Tunde Alabi,R379,Lagos,Sangotedo,Lagos,Ikoyi,2024-01-23 21:28:00,2024-01-23 21:40:00,2024-01-23 21:57:00,5.0,744.0,1.2,wallet,completed,4.9,bike
+T084,D102,Amara Nwosu,R364,Lagos,Gbagada,Lagos,Berger,2024-02-23 20:04:00,2024-02-23 20:08:00,2024-02-23 21:09:00,20.2,6060.0,2.0,wallet,completed,3.6,sedan
+T085,D107,Bello Musa,R222,Abuja,Jabi,Abuja,Wuse,2024-02-17 17:04:00,2024-02-17 17:15:00,2024-02-17 18:06:00,12.6,4220.0,2.0,card,completed,3.3,suv
+T086,D102,Amara Nwosu,R369,Port Harcourt,GRA Phase 3,Port Harcourt,Trans Amadi,2024-02-24 09:49:00,2024-02-24 10:01:00,2024-02-24 11:00:00,16.0,2240.0,1.0,cash,completed,4.7,sedan
+T087,D103,Tunde Alabi,R276,Lagos,Berger,Lagos,Lekki Phase 1,2024-01-27 07:50:00,2024-01-27 07:56:00,2024-01-27 09:27:00,22.8,3804.0,1.2,card,completed,3.7,bike
+T088,D114,Blessing Eze,R295,Port Harcourt,Rumuola,Port Harcourt,GRA Phase 2,2024-02-11 18:47:00,2024-02-11 18:57:00,2024-02-11 20:08:00,18.0,2580.0,1.0,card,completed,4.9,sedan
+T089,D110,Sade Williams,R283,Abuja,Gwarinpa,Abuja,Garki,2024-01-21 08:20:00,2024-01-21 08:33:00,2024-01-21 09:07:00,10.3,2265.0,1.5,card,completed,4.0,sedan
+T090,D111,Yusuf Lawal,R294,Lagos,Lekki Phase 2,Lagos,Ojodu,2024-02-16 11:01:00,2024-02-16 11:06:00,2024-02-16 12:04:00,19.0,4590.0,1.5,cash,completed,4.6,bike
+T091,D111,Yusuf Lawal,R314,Kano,Sabon Gari,Kano,Bompai,2024-01-19 10:33:00,2024-01-19 10:41:00,2024-01-19 11:12:00,6.5,1040.0,1.0,cash,completed,4.1,bike
+T092,D108,Kemi Adeleke,R378,Abuja,Gwarinpa,Abuja,Garki,2024-02-15 12:07:00,2024-02-15 12:12:00,,19.4,4275.0,1.5,card,cancelled,,sedan
+T093,D103,Tunde Alabi,R331,Abuja,Wuse,Abuja,Garki,2024-01-29 09:12:00,2024-01-29 09:27:00,2024-01-29 09:51:00,6.7,1130.0,1.0,card,completed,4.0,bike
+T094,D107,Bello Musa,R397,Kano,Kofar Mata,Kano,Bompai,2024-02-10 08:08:00,2024-02-10 08:16:00,2024-02-10 08:51:00,9.7,2860.0,2.0,wallet,completed,3.5,suv
+T095,D102,Amara Nwosu,R243,Ibadan,Ring Road,Ibadan,Agodi,2024-01-25 16:59:00,2024-01-25 17:13:00,2024-01-25 17:31:00,3.8,1360.0,2.0,card,completed,3.6,sedan
+T096,D102,Amara Nwosu,R244,Ibadan,Ring Road,Ibadan,Dugbe,2024-02-23 16:53:00,,,2.4,410.0,1.0,wallet,cancelled,,sedan
+T097,D115,Musa Danjuma,R324,Ibadan,Dugbe,Ibadan,Agodi,2024-01-30 18:19:00,2024-01-30 18:29:00,2024-01-30 18:43:00,3.7,690.0,1.5,cash,completed,3.8,sedan
+T098,D106,Ngozi Adeyemi,R332,Kano,Fagge,Kano,Bompai,2024-02-19 09:20:00,2024-02-19 09:26:00,2024-02-19 09:53:00,8.5,1150.0,1.0,card,completed,4.9,sedan
+T099,D114,Blessing Eze,R396,Port Harcourt,Rumuola,Port Harcourt,GRA Phase 2,2024-01-25 21:32:00,2024-01-25 21:42:00,2024-01-25 22:22:00,12.6,1750.0,1.0,wallet,completed,4.0,sedan
+T100,D110,Sade Williams,R228,Kano,Sabon Gari,Kano,Nassarawa,2024-02-11 10:56:00,2024-02-11 11:03:00,2024-02-11 11:32:00,9.4,1872.0,1.2,wallet,completed,4.2,sedan
+T101,D109,Chidi Okafor,R225,Port Harcourt,GRA Phase 2,Port Harcourt,GRA Phase 3,2024-02-09 17:50:00,2024-02-09 17:58:00,2024-02-09 18:42:00,13.2,1870.0,1.0,card,completed,4.1,sedan
+T102,D108,Kemi Adeleke,R236,Abuja,Gwarinpa,Abuja,Jabi,2024-02-04 16:10:00,2024-02-04 16:19:00,2024-02-04 17:39:00,19.3,3816.0,1.2,wallet,completed,4.2,sedan
+T103,D111,Yusuf Lawal,R386,Lagos,Ojodu,Lagos,Sangotedo,2024-02-24 06:38:00,2024-02-24 06:48:00,2024-02-24 07:26:00,8.6,1370.0,1.0,card,completed,3.5,bike
+T104,D111,Yusuf Lawal,R380,Abuja,Wuse 2,Abuja,Jabi,2024-01-22 12:01:00,2024-01-22 12:11:00,2024-01-22 12:56:00,12.0,1550.0,1.0,card,completed,4.8,bike
+T105,D106,Ngozi Adeyemi,R281,Kano,Kofar Mata,Kano,Bompai,2024-01-26 20:58:00,2024-01-26 21:09:00,2024-01-26 21:37:00,6.7,1140.0,1.2,cash,completed,3.7,sedan
+T106,D112,Adaeze Obi,R326,Abuja,Jabi,Abuja,Wuse,2024-02-04 21:22:00,2024-02-04 21:33:00,2024-02-04 22:37:00,18.1,3648.0,1.2,wallet,completed,3.9,sedan
+T107,D105,Chukwuemeka Okonkwo,R289,Lagos,Sangotedo,Lagos,Lekki Phase 2,2024-02-12 14:47:00,,,7.2,1464.0,1.2,card,cancelled,,sedan
+T108,D109,Chidi Okafor,R214,Abuja,Jabi,Abuja,Maitama,2024-01-21 19:21:00,2024-01-21 19:35:00,2024-01-21 20:11:00,12.0,1930.0,1.0,cash,completed,3.9,sedan
+T109,D105,Chukwuemeka Okonkwo,R216,Port Harcourt,Rumuola,Port Harcourt,Trans Amadi,2024-01-20 13:34:00,2024-01-20 13:48:00,2024-01-20 14:36:00,12.6,2220.0,1.0,cash,completed,5.0,sedan
+T110,D115,Musa Danjuma,R277,Port Harcourt,GRA Phase 2,Port Harcourt,GRA Phase 3,2024-02-20 09:59:00,2024-02-20 10:07:00,2024-02-20 10:36:00,7.2,2600.0,2.0,wallet,completed,4.0,sedan
+T111,D105,Chukwuemeka Okonkwo,R287,Abuja,Wuse 2,Abuja,Wuse,2024-02-02 12:11:00,2024-02-02 12:23:00,2024-02-02 13:29:00,16.4,4275.0,1.5,card,completed,4.4,sedan
+T112,D105,Chukwuemeka Okonkwo,R393,Kano,Fagge,Kano,Kofar Mata,2024-02-01 16:19:00,2024-02-01 16:31:00,2024-02-01 17:27:00,12.9,1872.0,1.2,cash,completed,4.0,sedan
+T113,D113,Rotimi Adeyemi,R276,Port Harcourt,GRA Phase 2,Port Harcourt,Trans Amadi,2024-02-07 13:14:00,2024-02-07 13:19:00,2024-02-07 14:03:00,11.5,2040.0,1.2,card,completed,4.6,suv
+T114,D110,Sade Williams,R336,Lagos,Ikoyi,Lagos,Berger,2024-02-07 08:58:00,2024-02-07 09:10:00,2024-02-07 09:28:00,5.5,1860.0,2.0,cash,completed,3.5,sedan
+T115,D108,Kemi Adeleke,R215,Lagos,Ikoyi,Lagos,Berger,2024-02-13 10:32:00,2024-02-13 10:41:00,2024-02-13 11:48:00,15.6,2880.0,1.5,cash,completed,3.9,sedan
+T116,D106,Ngozi Adeyemi,R218,Lagos,Apapa,Lagos,Lekki Phase 1,2024-02-14 07:18:00,2024-02-14 07:27:00,2024-02-14 07:59:00,8.7,1680.0,1.5,card,completed,4.8,sedan
+T117,D109,Chidi Okafor,R231,Abuja,Jabi,Abuja,Garki,2024-01-26 18:33:00,2024-01-26 18:38:00,2024-01-26 20:04:00,19.1,2550.0,1.0,card,completed,4.4,sedan
+T118,D106,Ngozi Adeyemi,R386,Abuja,Garki,Abuja,Maitama,2024-01-22 07:51:00,2024-01-22 08:04:00,2024-01-22 08:41:00,10.9,1810.0,1.0,cash,completed,4.3,sedan
+T119,D101,Emeka Eze,R339,Kano,Bompai,Kano,Fagge,2024-01-28 07:08:00,,,14.8,2388.0,1.2,card,cancelled,,sedan
+T120,D105,Chukwuemeka Okonkwo,R361,Lagos,Apapa,Lagos,Yaba,2024-02-11 21:03:00,2024-02-11 21:11:00,2024-02-11 22:26:00,20.8,6660.0,2.0,card,completed,3.5,sedan
+T121,D105,Chukwuemeka Okonkwo,R215,Abuja,Wuse,Abuja,Asokoro,2024-02-19 19:26:00,2024-02-19 19:37:00,,14.4,2484.0,1.2,cash,cancelled,,sedan
+T122,D105,Chukwuemeka Okonkwo,R219,Kano,Kofar Mata,Kano,Nassarawa,2024-01-27 12:30:00,2024-01-27 12:36:00,2024-01-27 13:19:00,12.8,1790.0,1.0,cash,completed,4.5,sedan
+T123,D107,Bello Musa,R399,Abuja,Gwarinpa,Abuja,Garki,2024-02-02 18:29:00,2024-02-02 18:40:00,2024-02-02 19:48:00,17.0,2832.0,1.2,card,completed,3.4,suv
+T124,D106,Ngozi Adeyemi,R345,Port Harcourt,Trans Amadi,Port Harcourt,GRA Phase 2,2024-01-29 10:01:00,2024-01-29 10:08:00,2024-01-29 10:51:00,12.0,2790.0,1.5,card,completed,3.6,sedan
+T125,D106,Ngozi Adeyemi,R365,Port Harcourt,Trans Amadi,Port Harcourt,Rumuola,2024-02-15 20:10:00,2024-02-15 20:24:00,2024-02-15 21:36:00,18.2,4740.0,2.0,cash,completed,4.1,sedan
+T126,D101,Emeka Eze,R218,Kano,Fagge,Kano,Sabon Gari,2024-01-24 06:13:00,2024-01-24 06:24:00,2024-01-24 07:03:00,9.1,1695.0,1.5,,completed,4.2,sedan
+T127,D105,Chukwuemeka Okonkwo,R246,Lagos,Ikoyi,Lagos,Ojodu,2024-01-21 09:33:00,2024-01-21 09:38:00,2024-01-21 10:16:00,8.3,1560.0,1.2,card,completed,3.3,sedan
+T128,D105,Chukwuemeka Okonkwo,R304,Lagos,Lekki Phase 1,Lagos,Ikeja,2024-02-08 18:35:00,2024-02-08 18:45:00,2024-02-08 19:04:00,6.3,760.0,1.0,card,completed,4.2,sedan
+T129,D104,Funke Osei,R212,Ibadan,Agodi,Ibadan,Dugbe,2024-01-19 14:57:00,2024-01-19 15:08:00,2024-01-19 15:37:00,9.6,1404.0,1.2,wallet,completed,3.5,suv
+T130,D110,Sade Williams,R374,Abuja,Gwarinpa,Abuja,Asokoro,2024-02-18 16:24:00,2024-02-18 16:39:00,2024-02-18 17:40:00,15.4,2580.0,1.0,cash,completed,3.4,sedan
+T131,D110,Sade Williams,R363,Kano,Sabon Gari,Kano,Nassarawa,2024-02-01 20:31:00,2024-02-01 20:37:00,2024-02-01 20:55:00,5.5,1455.0,1.5,card,completed,3.4,sedan
+T132,D103,Tunde Alabi,R282,Kano,Fagge,Kano,Kofar Mata,2024-02-07 09:05:00,2024-02-07 09:08:00,2024-02-07 09:49:00,13.0,2292.0,1.2,cash,completed,4.0,bike
+T133,D109,Chidi Okafor,R204,Lagos,Oshodi,Lagos,Ojodu,2024-02-02 19:24:00,2024-02-02 19:39:00,2024-02-02 19:59:00,4.9,850.0,1.0,card,completed,3.5,sedan
+T134,D105,Chukwuemeka Okonkwo,R220,Kano,Sabon Gari,Kano,Kofar Mata,2024-02-07 14:15:00,2024-02-07 14:29:00,2024-02-07 15:04:00,9.0,1400.0,1.0,card,completed,3.2,sedan
+T135,D108,Kemi Adeleke,R353,Port Harcourt,Trans Amadi,Port Harcourt,Rumuola,2024-01-23 15:20:00,2024-01-23 15:32:00,2024-01-23 16:40:00,20.4,3228.0,1.2,card,completed,3.7,sedan
+T136,D107,Bello Musa,R230,Port Harcourt,Trans Amadi,Port Harcourt,GRA Phase 3,2024-02-20 12:37:00,2024-02-20 12:48:00,2024-02-20 13:19:00,6.5,1080.0,1.0,cash,completed,4.0,suv
+T137,D107,Bello Musa,R262,Kano,Fagge,Kano,Bompai,2024-01-31 10:45:00,2024-01-31 10:54:00,2024-01-31 11:49:00,13.3,2490.0,1.5,wallet,completed,4.9,suv
+T138,D112,Adaeze Obi,R228,Ibadan,Challenge,Ibadan,Bodija,2024-01-30 17:10:00,2024-01-30 17:23:00,2024-01-30 18:02:00,8.1,1860.0,1.5,card,completed,3.4,sedan
+T139,D112,Adaeze Obi,R296,Ibadan,Ring Road,Ibadan,Challenge,2024-02-09 20:49:00,2024-02-09 21:02:00,2024-02-09 21:41:00,8.0,1440.0,1.2,cash,completed,3.7,sedan
+T140,D106,Ngozi Adeyemi,R253,Port Harcourt,Rumuola,Port Harcourt,GRA Phase 3,2024-02-17 21:22:00,2024-02-17 21:32:00,2024-02-17 21:52:00,5.6,1365.0,1.5,cash,completed,4.7,sedan
+T141,D103,Tunde Alabi,R342,Abuja,Gwarinpa,Abuja,Maitama,2024-01-25 16:35:00,2024-01-25 16:44:00,2024-01-25 18:22:00,23.1,4650.0,1.5,card,completed,3.9,bike
+T142,D101,Emeka Eze,R393,Abuja,Maitama,Abuja,Asokoro,2024-01-19 09:51:00,2024-01-19 10:02:00,,9.0,1875.0,1.5,card,cancelled,,sedan
+T143,D106,Ngozi Adeyemi,R245,Port Harcourt,Trans Amadi,Port Harcourt,Rumuola,2024-02-03 08:43:00,2024-02-03 08:48:00,,10.1,1360.0,1.0,cash,cancelled,,sedan
+T144,D111,Yusuf Lawal,R326,Ibadan,Ring Road,Ibadan,Dugbe,2024-02-02 10:11:00,2024-02-02 10:19:00,2024-02-02 11:08:00,10.0,1884.0,1.2,cash,completed,3.6,bike
+T145,D108,Kemi Adeleke,R243,Kano,Bompai,Kano,Kofar Mata,2024-01-20 06:50:00,2024-01-20 07:05:00,2024-01-20 07:29:00,6.1,750.0,1.0,card,completed,4.2,sedan
+T146,D105,Chukwuemeka Okonkwo,R395,Ibadan,Dugbe,Ibadan,Bodija,2024-02-12 12:27:00,2024-02-12 12:31:00,2024-02-12 13:02:00,8.9,1420.0,1.0,card,completed,3.7,sedan
+T147,D113,Rotimi Adeyemi,R351,Abuja,Maitama,Abuja,Wuse,2024-02-06 19:10:00,2024-02-06 19:22:00,2024-02-06 20:01:00,8.5,1130.0,1.0,card,completed,4.2,suv
+T148,D110,Sade Williams,R393,Port Harcourt,GRA Phase 2,Port Harcourt,GRA Phase 3,2024-02-10 07:17:00,2024-02-10 07:30:00,2024-02-10 07:48:00,5.6,970.0,1.0,cash,completed,4.6,sedan
+T149,D107,Bello Musa,R363,Kano,Bompai,Kano,Nassarawa,2024-01-20 18:32:00,2024-01-20 18:46:00,2024-01-20 19:04:00,4.8,1020.0,1.2,card,completed,4.2,suv
+T150,D111,Yusuf Lawal,R302,Port Harcourt,GRA Phase 2,Port Harcourt,Trans Amadi,2024-01-28 19:52:00,2024-01-28 19:58:00,2024-01-28 20:43:00,12.5,2088.0,1.2,cash,completed,4.2,bike
+T151,D102,Amara Nwosu,R241,Kano,Nassarawa,Kano,Fagge,2024-02-12 20:00:00,2024-02-12 20:09:00,2024-02-12 20:30:00,4.5,720.0,1.0,cash,completed,4.8,sedan
+T152,D111,Yusuf Lawal,R361,Abuja,Wuse 2,Abuja,Gwarinpa,2024-02-03 13:27:00,2024-02-03 13:40:00,2024-02-03 14:12:00,8.1,1020.0,1.0,,completed,3.6,bike
+T153,D114,Blessing Eze,R219,Kano,Fagge,Kano,Kofar Mata,2024-01-29 18:05:00,2024-01-29 18:19:00,2024-01-29 19:22:00,13.4,2028.0,1.2,card,completed,4.6,sedan
+T154,D109,Chidi Okafor,R313,Ibadan,Bodija,Ibadan,Dugbe,2024-02-06 12:40:00,2024-02-06 12:54:00,2024-02-06 13:12:00,3.9,855.0,1.5,cash,completed,3.5,sedan
+T155,D113,Rotimi Adeyemi,R366,Abuja,Maitama,Abuja,Asokoro,2024-01-20 13:35:00,,,14.3,2240.0,1.0,card,cancelled,,suv
+T156,D113,Rotimi Adeyemi,R229,Abuja,Asokoro,Abuja,Gwarinpa,2024-01-30 21:40:00,2024-01-30 21:52:00,2024-01-30 22:19:00,5.6,970.0,1.0,cash,completed,3.9,suv
+T157,D108,Kemi Adeleke,R204,Lagos,Victoria Island,Lagos,Ikeja,2024-01-31 12:02:00,2024-01-31 12:05:00,2024-01-31 13:44:00,23.3,4020.0,1.2,card,completed,4.0,sedan
+T158,D102,Amara Nwosu,R253,Port Harcourt,GRA Phase 2,Port Harcourt,Trans Amadi,2024-01-24 16:25:00,2024-01-24 16:37:00,2024-01-24 17:20:00,11.9,2030.0,1.0,cash,completed,3.3,sedan
+T159,D105,Chukwuemeka Okonkwo,R382,Abuja,Wuse 2,Abuja,Maitama,2024-01-23 06:10:00,2024-01-23 06:20:00,2024-01-23 07:28:00,20.4,3708.0,1.2,card,completed,4.5,sedan
+T160,D109,Chidi Okafor,R328,Lagos,Ajah,Lagos,Lekki Phase 2,2024-02-13 22:23:00,2024-02-13 22:26:00,2024-02-13 23:10:00,13.3,,1.2,wallet,completed,4.4,sedan
+T161,D101,Emeka Eze,R294,Abuja,Wuse 2,Abuja,Gwarinpa,2024-02-08 10:11:00,2024-02-08 10:14:00,2024-02-08 10:56:00,12.2,3195.0,1.5,card,completed,4.8,sedan
+T162,D111,Yusuf Lawal,R333,Lagos,Yaba,Lagos,Ajah,2024-01-17 18:04:00,2024-01-17 18:14:00,2024-01-17 19:22:00,18.7,3732.0,1.2,card,completed,3.2,bike
+T163,,,R388,Port Harcourt,Trans Amadi,Port Harcourt,GRA Phase 2,2024-02-18 13:09:00,2024-02-18 13:12:00,,21.9,5320.0,2.0,cash,cancelled,,sedan
+T164,D102,Amara Nwosu,R308,Abuja,Gwarinpa,Abuja,Maitama,2024-02-15 07:09:00,2024-02-15 07:23:00,2024-02-15 08:20:00,12.0,1470.0,1.0,card,completed,4.5,sedan
+T165,D103,Tunde Alabi,R312,Kano,Nassarawa,Kano,Fagge,2024-01-23 13:18:00,,,10.0,2640.0,1.5,card,cancelled,,bike
+T166,D110,Sade Williams,R243,Lagos,Surulere,Lagos,Ikeja,2024-02-12 20:20:00,2024-02-12 20:29:00,2024-02-12 20:55:00,6.7,950.0,1.0,card,completed,4.7,sedan
+T167,D110,Sade Williams,R238,Lagos,Maryland,Lagos,Mushin,2024-01-20 13:22:00,2024-01-20 13:31:00,2024-01-20 14:31:00,13.0,2508.0,1.2,cash,completed,4.9,sedan
+T168,D102,Amara Nwosu,R216,Abuja,Wuse 2,Abuja,Maitama,2024-01-29 10:12:00,2024-01-29 10:21:00,2024-01-29 11:05:00,10.7,1690.0,1.0,cash,completed,3.2,sedan
+T169,D115,Musa Danjuma,R319,Port Harcourt,GRA Phase 2,Port Harcourt,GRA Phase 3,2024-01-18 11:59:00,,,9.8,2415.0,1.5,card,cancelled,,sedan
+T170,D101,Emeka Eze,R366,Ibadan,Challenge,Ibadan,Ring Road,2024-02-02 21:26:00,2024-02-02 21:37:00,2024-02-02 22:04:00,8.3,,1.5,wallet,completed,3.6,sedan
+T171,D112,Adaeze Obi,R325,Port Harcourt,Trans Amadi,Port Harcourt,Rumuola,2024-02-06 22:20:00,2024-02-06 22:29:00,2024-02-06 23:00:00,10.4,1270.0,1.0,cash,completed,4.7,sedan
+T172,D103,Tunde Alabi,R269,Lagos,Gbagada,Lagos,Ajah,2024-02-18 07:48:00,2024-02-18 07:54:00,2024-02-18 08:41:00,12.7,3405.0,1.5,cash,completed,3.6,bike
+T173,D112,Adaeze Obi,R249,Port Harcourt,GRA Phase 3,Port Harcourt,Trans Amadi,2024-02-15 15:11:00,2024-02-15 15:21:00,2024-02-15 15:40:00,6.3,780.0,1.0,cash,completed,3.8,sedan
+T174,D113,Rotimi Adeyemi,R238,Port Harcourt,GRA Phase 2,Port Harcourt,GRA Phase 3,2024-02-21 10:49:00,2024-02-21 10:53:00,,14.4,2480.0,1.0,card,cancelled,,suv
+T175,,,R382,Kano,Sabon Gari,Kano,Fagge,2024-02-19 17:14:00,2024-02-19 17:27:00,2024-02-19 18:13:00,10.3,1608.0,1.2,cash,completed,3.5,suv
+T176,D113,Rotimi Adeyemi,R355,Ibadan,Bodija,Ibadan,Dugbe,2024-02-04 13:40:00,2024-02-04 13:52:00,2024-02-04 14:06:00,3.3,600.0,1.2,card,completed,5.0,suv
+T177,D111,Yusuf Lawal,R268,Port Harcourt,Trans Amadi,Port Harcourt,GRA Phase 2,2024-01-28 13:44:00,2024-01-28 13:48:00,2024-01-28 14:14:00,8.6,1440.0,1.0,card,completed,4.9,bike
+T178,D102,Amara Nwosu,R242,Kano,Kofar Mata,Kano,Fagge,2024-02-12 08:51:00,2024-02-12 08:54:00,2024-02-12 09:13:00,6.3,870.0,1.0,card,completed,3.5,sedan
+T179,D110,Sade Williams,R368,Kano,Nassarawa,Kano,Kofar Mata,2024-01-25 19:10:00,2024-01-25 19:13:00,2024-01-25 19:29:00,4.2,560.0,1.0,wallet,completed,3.7,sedan
+T180,D114,Blessing Eze,R293,Kano,Fagge,Kano,Nassarawa,2024-01-15 19:05:00,2024-01-15 19:12:00,2024-01-15 19:49:00,10.9,2580.0,1.5,cash,completed,3.5,sedan
+T181,D107,Bello Musa,R224,Kano,Bompai,Kano,Sabon Gari,2024-02-25 18:11:00,2024-02-25 18:19:00,2024-02-25 18:58:00,12.8,2730.0,1.5,card,completed,3.7,suv
+T182,D102,Amara Nwosu,R306,Lagos,Mushin,Lagos,VI,2024-02-21 13:35:00,2024-02-21 13:38:00,,18.0,4560.0,1.5,card,cancelled,,sedan
+T183,D101,Emeka Eze,R231,Ibadan,Challenge,Ibadan,Ring Road,2024-02-12 11:10:00,,,11.9,2280.0,1.5,card,cancelled,,sedan
+T184,D112,Adaeze Obi,R343,Lagos,Lekki Phase 2,Lagos,Ojodu,2024-02-09 16:54:00,2024-02-09 17:01:00,2024-02-09 17:56:00,12.1,2110.0,1.0,wallet,completed,4.1,sedan
+T185,D113,Rotimi Adeyemi,R274,Lagos,Ikeja,Lagos,Surulere,2024-02-18 17:56:00,2024-02-18 18:05:00,2024-02-18 18:31:00,8.6,2055.0,1.5,card,completed,3.5,suv
+T186,D106,Ngozi Adeyemi,R322,Abuja,Wuse 2,Abuja,Wuse,2024-02-01 17:01:00,2024-02-01 17:09:00,,20.0,3312.0,1.2,cash,cancelled,,sedan
+T187,D106,Ngozi Adeyemi,R366,Port Harcourt,Trans Amadi,Port Harcourt,Rumuola,2024-01-20 12:28:00,2024-01-20 12:34:00,2024-01-20 13:55:00,18.1,3930.0,1.5,cash,completed,4.1,sedan
+T188,D114,Blessing Eze,R245,Ibadan,Challenge,Ibadan,Bodija,2024-01-27 12:53:00,2024-01-27 12:56:00,2024-01-27 13:17:00,4.8,852.0,1.2,card,completed,4.7,sedan
+T189,D106,Ngozi Adeyemi,R246,Kano,Kofar Mata,Kano,Bompai,2024-02-14 17:22:00,2024-02-14 17:27:00,2024-02-14 18:12:00,12.8,1740.0,1.0,cash,completed,3.5,sedan
+T190,,,R305,Abuja,Garki,Abuja,Wuse,2024-02-16 06:55:00,2024-02-16 07:10:00,,19.4,4680.0,1.5,cash,cancelled,,bike
+T191,D112,Adaeze Obi,R290,Port Harcourt,Trans Amadi,Port Harcourt,GRA Phase 3,2024-02-13 14:13:00,2024-02-13 14:23:00,2024-02-13 14:59:00,8.8,1995.0,1.5,wallet,completed,5.0,sedan
+T192,D105,Chukwuemeka Okonkwo,R217,Port Harcourt,GRA Phase 2,Port Harcourt,Rumuola,2024-02-05 14:40:00,2024-02-05 14:48:00,2024-02-05 15:50:00,18.5,3012.0,1.2,cash,completed,4.8,sedan
+T193,D111,Yusuf Lawal,R368,Abuja,Jabi,Abuja,Wuse 2,2024-02-15 15:16:00,2024-02-15 15:25:00,,10.8,1770.0,1.0,cash,cancelled,,bike
+T194,D105,Chukwuemeka Okonkwo,R343,Abuja,Wuse,Abuja,Jabi,2024-01-26 15:06:00,2024-01-26 15:16:00,2024-01-26 15:53:00,8.2,2220.0,2.0,card,completed,4.4,sedan
+T195,D115,Musa Danjuma,R350,Port Harcourt,Rumuola,Port Harcourt,GRA Phase 3,2024-02-02 20:54:00,2024-02-02 20:58:00,2024-02-02 21:36:00,9.8,1690.0,1.0,wallet,completed,3.4,sedan
+T196,D103,Tunde Alabi,R305,Abuja,Maitama,Abuja,Asokoro,2024-02-20 20:09:00,,,21.9,2870.0,1.0,cash,cancelled,,bike
+T197,D110,Sade Williams,R234,Abuja,Asokoro,Abuja,Wuse 2,2024-02-23 19:40:00,2024-02-23 19:49:00,2024-02-23 20:18:00,9.9,2655.0,1.5,cash,completed,4.5,sedan
+T198,D101,Emeka Eze,R378,Lagos,Gbagada,Lagos,Ajah,2024-02-06 15:08:00,2024-02-06 15:12:00,2024-02-06 15:46:00,11.0,1710.0,1.0,card,completed,4.9,sedan
+T199,D111,Yusuf Lawal,R292,Abuja,Garki,Abuja,Gwarinpa,2024-01-27 11:58:00,2024-01-27 12:13:00,2024-01-27 12:58:00,13.2,1770.0,1.0,wallet,completed,4.1,bike
+T200,D111,Yusuf Lawal,R213,Port Harcourt,GRA Phase 2,Port Harcourt,Trans Amadi,2024-01-21 06:03:00,2024-01-21 06:17:00,2024-01-21 06:43:00,6.4,940.0,1.0,,completed,3.6,bike
+T201,D109,Chidi Okafor,R227,Port Harcourt,GRA Phase 3,Port Harcourt,Rumuola,2024-02-16 09:18:00,2024-02-16 09:22:00,2024-02-16 10:33:00,15.7,2350.0,1.0,cash,completed,3.8,sedan
+T202,D112,Adaeze Obi,R201,Kano,Sabon Gari,Kano,Fagge,2024-01-15 08:58:00,2024-01-15 09:02:00,2024-01-15 09:55:00,10.9,1740.0,1.0,cash,completed,4.5,sedan
+T203,D105,Chukwuemeka Okonkwo,R226,Port Harcourt,Trans Amadi,Port Harcourt,GRA Phase 2,2024-01-26 07:54:00,2024-01-26 08:01:00,2024-01-26 08:41:00,9.1,2190.0,1.5,cash,completed,3.2,sedan
+T204,D110,Sade Williams,R288,Port Harcourt,GRA Phase 2,Port Harcourt,Rumuola,2024-01-26 09:25:00,2024-01-26 09:34:00,2024-01-26 11:01:00,20.0,4080.0,1.5,card,completed,4.4,sedan
+T205,D114,Blessing Eze,R352,Abuja,Wuse 2,Abuja,Gwarinpa,2024-02-14 20:11:00,2024-02-14 20:23:00,,12.1,1710.0,1.0,cash,cancelled,,sedan
+T206,D111,Yusuf Lawal,R374,Port Harcourt,GRA Phase 2,Port Harcourt,Trans Amadi,2024-02-17 13:42:00,2024-02-17 13:50:00,,11.1,1790.0,1.0,cash,cancelled,,bike
+T207,D115,Musa Danjuma,R365,Ibadan,Bodija,Ibadan,Ring Road,2024-01-25 22:54:00,2024-01-25 23:04:00,2024-01-25 23:45:00,9.2,1590.0,1.0,cash,completed,3.8,sedan
+T208,D114,Blessing Eze,R314,Abuja,Wuse 2,Abuja,Gwarinpa,2024-02-20 20:05:00,2024-02-20 20:15:00,2024-02-20 21:21:00,14.7,2805.0,1.5,cash,completed,3.9,sedan
+T209,D110,Sade Williams,R372,Port Harcourt,GRA Phase 3,Port Harcourt,Trans Amadi,2024-02-13 16:23:00,2024-02-13 16:26:00,2024-02-13 17:24:00,14.1,2892.0,1.2,wallet,completed,4.1,sedan
+T210,D104,Funke Osei,R363,Lagos,Oshodi,Lagos,Agege,2024-02-02 22:23:00,,,5.2,1365.0,1.5,card,cancelled,,suv
+T211,D108,Kemi Adeleke,R228,Abuja,Jabi,Abuja,Garki,2024-02-10 07:59:00,2024-02-10 08:12:00,2024-02-10 09:22:00,18.1,4215.0,1.5,wallet,completed,3.4,sedan
+T212,D114,Blessing Eze,R378,Ibadan,Agodi,Ibadan,Ring Road,2024-02-21 11:46:00,2024-02-21 11:51:00,2024-02-21 12:03:00,3.1,600.0,1.2,card,completed,5.0,sedan
+T213,D105,Chukwuemeka Okonkwo,R306,Kano,Fagge,Kano,Sabon Gari,2024-02-22 22:19:00,2024-02-22 22:33:00,2024-02-22 23:12:00,9.2,2560.0,2.0,cash,completed,4.3,sedan
+T214,D111,Yusuf Lawal,R378,Abuja,Gwarinpa,Abuja,Jabi,2024-02-24 16:45:00,2024-02-24 16:49:00,2024-02-24 18:03:00,17.1,3945.0,1.5,,completed,4.8,bike
+T215,D101,Emeka Eze,R393,Lagos,Maryland,Lagos,Sangotedo,2024-01-25 15:43:00,2024-01-25 15:50:00,2024-01-25 16:17:00,8.2,1224.0,1.2,cash,completed,3.8,sedan
+T216,D104,Funke Osei,R331,Ibadan,Agodi,Ibadan,Ring Road,2024-02-02 07:59:00,2024-02-02 08:08:00,2024-02-02 08:33:00,5.1,1092.0,1.2,cash,completed,4.5,suv
+T217,D104,Funke Osei,R250,Port Harcourt,  GRA Phase 3,Port Harcourt,Trans Amadi,2024-02-02 20:11:00,2024-02-02 20:24:00,2024-02-02 20:39:00,4.8,1720.0,2.0,card,completed,3.7,suv
+T218,D108,Kemi Adeleke,R283,Abuja,Wuse 2,Abuja,Garki,2024-02-22 07:49:00,2024-02-22 08:02:00,2024-02-22 09:07:00,14.3,3420.0,1.5,card,completed,3.3,sedan
+T219,D113,Rotimi Adeyemi,R340,Ibadan,Ring Road,Ibadan,Challenge,2024-02-18 18:05:00,2024-02-18 18:13:00,2024-02-18 18:31:00,5.0,804.0,1.2,cash,completed,4.9,suv
+T220,D111,Yusuf Lawal,R315,Lagos,Ikeja,Lagos,Agege,2024-01-30 13:02:00,2024-01-30 13:15:00,2024-01-30 14:38:00,22.2,3170.0,1.0,card,completed,3.2,bike
+T221,D108,Kemi Adeleke,R283,Lagos,Sangotedo,Lagos,Maryland,2024-02-16 08:06:00,2024-02-16 08:11:00,2024-02-16 09:13:00,20.6,6840.0,2.0,cash,completed,4.4,sedan
+T222,D109,Chidi Okafor,R207,Kano,Nassarawa,Kano,Sabon Gari,2024-02-13 16:02:00,2024-02-13 16:06:00,2024-02-13 16:22:00,4.0,624.0,1.2,cash,completed,4.8,sedan
+T223,D107,Bello Musa,R365,Lagos,Apapa,Lagos,Victoria Island,2024-02-23 08:48:00,2024-02-23 09:02:00,2024-02-23 09:54:00,14.2,2300.0,1.0,cash,completed,3.7,suv
+T224,D107,Bello Musa,R241,Kano,Nassarawa,Kano,Kofar Mata,2024-02-18 13:08:00,,,6.1,2060.0,2.0,cash,cancelled,,suv
+T225,D101,Emeka Eze,R232,Ibadan,Challenge,Ibadan,Ring Road,2024-01-17 06:36:00,,,6.0,920.0,1.0,card,cancelled,,sedan
+T226,D110,Sade Williams,R247,Port Harcourt,GRA Phase 3,Port Harcourt,GRA Phase 2,2024-02-20 07:54:00,2024-02-20 08:09:00,2024-02-20 09:12:00,14.8,3990.0,1.5,card,completed,4.4,sedan
+T227,D106,Ngozi Adeyemi,R261,Abuja,Jabi,Abuja,Wuse,2024-01-21 15:39:00,2024-01-21 15:43:00,,21.3,4440.0,1.5,card,cancelled,,sedan
+T228,D103,Tunde Alabi,R257,Lagos,Oshodi,Lagos,Gbagada,2024-02-25 19:17:00,2024-02-25 19:25:00,2024-02-25 19:48:00,6.0,1485.0,1.5,card,completed,4.1,bike
+T229,D114,Blessing Eze,R268,Abuja,Gwarinpa,Abuja,Maitama,2024-02-24 08:46:00,2024-02-24 08:50:00,2024-02-24 10:09:00,17.2,2940.0,1.0,card,completed,4.6,sedan
+T230,D109,Chidi Okafor,R301,Kano,Fagge,Kano,Bompai,2024-01-29 15:08:00,2024-01-29 15:18:00,,9.6,1440.0,1.2,cash,cancelled,,sedan
+T231,D108,Kemi Adeleke,R345,Abuja,Maitama,Abuja,Jabi,2024-01-24 21:22:00,2024-01-24 21:25:00,2024-01-24 21:56:00,8.9,1330.0,1.0,cash,completed,4.4,sedan
+T232,D115,Musa Danjuma,R227,Lagos,Lekki Phase 1,Lagos,Mushin,2024-02-17 14:53:00,2024-02-17 15:07:00,2024-02-17 15:40:00,8.9,1360.0,1.0,card,completed,4.3,sedan
+T233,D104,Funke Osei,R289,Ibadan,Agodi,Ibadan,Dugbe,2024-02-15 21:56:00,2024-02-15 22:08:00,2024-02-15 22:18:00,2.1,540.0,1.5,wallet,completed,4.4,suv
+T234,D102,Amara Nwosu,R385,Abuja,Asokoro,Abuja,Garki,2024-01-22 21:43:00,2024-01-22 21:53:00,2024-01-22 22:31:00,12.5,2925.0,1.5,cash,completed,4.2,sedan
+T235,D101,Emeka Eze,R333,Abuja,Garki,Abuja,Maitama,2024-02-09 06:56:00,2024-02-09 07:10:00,2024-02-09 08:01:00,15.1,2550.0,1.0,card,completed,4.8,sedan
+T236,D114,Blessing Eze,R331,Abuja,Gwarinpa,Abuja,Wuse,2024-01-31 11:46:00,2024-01-31 11:59:00,2024-01-31 12:37:00,11.0,1620.0,1.0,cash,completed,3.4,sedan
+T237,,,R322,Ibadan,Bodija,Ibadan,Dugbe,2024-02-23 07:56:00,2024-02-23 08:11:00,2024-02-23 08:37:00,6.8,1120.0,1.0,wallet,completed,4.2,bike
+T238,D107,Bello Musa,R336,Port Harcourt,GRA Phase 2,Port Harcourt,Trans Amadi,2024-02-11 13:51:00,2024-02-11 14:01:00,2024-02-11 15:04:00,16.5,2360.0,1.0,card,completed,4.6,suv
+T239,D105,Chukwuemeka Okonkwo,R391,Abuja,Wuse 2,Abuja,Wuse,2024-01-15 22:07:00,2024-01-15 22:18:00,2024-01-15 22:37:00,5.1,984.0,1.2,cash,completed,4.0,sedan
+T240,D110,Sade Williams,R306,Port Harcourt,Trans Amadi,Port Harcourt,GRA Phase 2,2024-02-19 21:11:00,2024-02-19 21:19:00,,12.5,2244.0,1.2,card,cancelled,,sedan
+T241,D112,Adaeze Obi,R331,Abuja,Wuse 2,Abuja,Garki,2024-02-09 16:51:00,2024-02-09 17:02:00,,14.1,2270.0,1.0,cash,cancelled,,sedan
+T242,D105,Chukwuemeka Okonkwo,R356,Abuja,Garki,Abuja,Wuse 2,2024-01-17 18:59:00,2024-01-17 19:08:00,2024-01-17 20:21:00,15.0,2270.0,1.0,card,completed,4.0,sedan
+T243,D101,Emeka Eze,R358,Ibadan,Challenge,Ibadan,Ring Road,2024-01-25 07:23:00,2024-01-25 07:29:00,2024-01-25 08:05:00,7.3,,1.0,card,completed,4.4,sedan
+T244,D115,Musa Danjuma,R386,Lagos,Apapa,Lagos,Sangotedo,2024-02-19 17:22:00,2024-02-19 17:29:00,2024-02-19 18:03:00,7.1,1890.0,1.5,cash,completed,3.7,sedan
+T245,D102,Amara Nwosu,R378,Ibadan,Dugbe,Ibadan,Agodi,2024-02-12 18:36:00,2024-02-12 18:46:00,2024-02-12 19:24:00,8.9,2205.0,1.5,cash,completed,4.1,sedan
+T246,D112,Adaeze Obi,R306,Abuja,Wuse,Abuja,Garki,2024-02-06 22:34:00,,,18.3,2976.0,1.2,card,cancelled,,sedan
+T247,D105,Chukwuemeka Okonkwo,R249,Abuja,Jabi,Abuja,Wuse,2024-02-15 12:15:00,2024-02-15 12:29:00,2024-02-15 13:03:00,10.2,1380.0,1.0,wallet,completed,3.8,sedan
+T248,D108,Kemi Adeleke,R324,Ibadan,Bodija,Ibadan,Ring Road,2024-02-07 16:31:00,2024-02-07 16:43:00,2024-02-07 17:21:00,10.8,3220.0,2.0,wallet,completed,3.4,sedan
+T249,D106,Ngozi Adeyemi,R231,Kano,Fagge,Kano,Kofar Mata,2024-02-17 20:20:00,2024-02-17 20:34:00,2024-02-17 20:44:00,2.6,615.0,1.5,card,completed,4.3,sedan
+T250,D110,Sade Williams,R328,Port Harcourt,Rumuola,Port Harcourt,GRA Phase 2,2024-02-11 12:26:00,2024-02-11 12:40:00,2024-02-11 13:37:00,16.1,3420.0,1.5,wallet,completed,3.4,sedan
+T251,D104,Funke Osei,R251,Ibadan,Agodi,Ibadan,Challenge,2024-01-24 10:30:00,2024-01-24 10:45:00,,2.5,360.0,1.0,wallet,cancelled,,suv
+T252,D101,Emeka Eze,R216,Kano,Nassarawa,Kano,Sabon Gari,2024-01-28 14:30:00,2024-01-28 14:43:00,2024-01-28 14:55:00,3.3,660.0,1.2,,completed,4.9,sedan
+T253,D110,Sade Williams,R367,Abuja,Gwarinpa,Abuja,Jabi,2024-02-25 11:49:00,2024-02-25 11:56:00,2024-02-25 12:42:00,10.3,2475.0,1.5,cash,completed,3.9,sedan
+T254,D113,Rotimi Adeyemi,R357,Port Harcourt,Trans Amadi,Port Harcourt,Rumuola,2024-02-20 18:54:00,2024-02-20 18:58:00,2024-02-20 19:20:00,6.2,1044.0,1.2,card,completed,4.3,suv
+T255,D112,Adaeze Obi,R306,Ibadan,Challenge,Ibadan,Agodi,2024-01-25 11:54:00,,,4.0,636.0,1.2,cash,cancelled,,sedan
+T256,D101,Emeka Eze,R396,Lagos,Agege,Lagos,Apapa,2024-01-20 09:16:00,2024-01-20 09:28:00,2024-01-20 09:51:00,6.6,1575.0,1.5,card,completed,4.0,sedan
+T257,D106,Ngozi Adeyemi,R339,Port Harcourt,Trans Amadi,Port Harcourt,GRA Phase 3,2024-02-01 20:08:00,2024-02-01 20:22:00,,11.8,2745.0,1.5,wallet,cancelled,,sedan
+T258,D104,Funke Osei,R294,Lagos,  Berger,Lagos,Sangotedo,2024-02-10 14:09:00,2024-02-10 14:16:00,2024-02-10 14:31:00,4.2,630.0,1.0,wallet,completed,3.2,suv
+T259,D107,Bello Musa,R341,Port Harcourt,GRA Phase 3,Port Harcourt,GRA Phase 2,2024-02-07 12:26:00,2024-02-07 12:37:00,2024-02-07 13:32:00,12.0,2430.0,1.5,card,completed,3.3,suv
+T260,D112,Adaeze Obi,R391,Port Harcourt,Rumuola,Port Harcourt,Trans Amadi,2024-02-18 14:26:00,2024-02-18 14:32:00,2024-02-18 15:33:00,19.0,2988.0,1.2,wallet,completed,4.0,sedan
+T261,D109,Chidi Okafor,R273,Lagos,Yaba,Lagos,Ikeja,2024-02-01 10:45:00,2024-02-01 10:55:00,2024-02-01 11:56:00,20.2,2710.0,1.0,card,completed,4.0,sedan
+T262,D101,Emeka Eze,R215,Port Harcourt,GRA Phase 2,Port Harcourt,GRA Phase 3,2024-02-01 18:04:00,2024-02-01 18:15:00,2024-02-01 19:14:00,12.8,2028.0,1.2,cash,completed,5.0,sedan
+T263,D101,Emeka Eze,R398,Abuja,Asokoro,Abuja,Wuse,2024-01-21 22:42:00,2024-01-21 22:48:00,2024-01-21 23:46:00,12.0,2316.0,1.2,cash,completed,4.5,sedan
+T264,D106,Ngozi Adeyemi,R261,Lagos,Maryland,Lagos,Ikeja,2024-02-24 19:20:00,2024-02-24 19:23:00,2024-02-24 19:53:00,8.0,1090.0,1.0,cash,completed,4.9,sedan
+T265,D113,Rotimi Adeyemi,R328,Lagos,Gbagada,Lagos,Yaba,2024-01-20 16:59:00,2024-01-20 17:14:00,2024-01-20 18:39:00,19.5,2410.0,1.0,cash,completed,4.1,suv
+T266,D115,Musa Danjuma,R377,Kano,Fagge,Kano,Nassarawa,2024-02-08 17:46:00,2024-02-08 17:51:00,2024-02-08 18:17:00,6.5,1200.0,1.5,card,completed,3.5,sedan
+T267,D114,Blessing Eze,R218,Ibadan,Challenge,Ibadan,Ring Road,2024-02-17 10:28:00,,,10.1,2310.0,1.5,,cancelled,,sedan
+T268,D104,Funke Osei,R338,Port Harcourt,GRA Phase 2,Port Harcourt,Trans Amadi,2024-02-08 12:33:00,,,11.4,2088.0,1.2,card,cancelled,,suv
+T269,D114,Blessing Eze,R325,Lagos,Maryland,Lagos,Ikeja,2024-01-27 09:02:00,,,17.2,3690.0,1.5,wallet,cancelled,,sedan
+T270,D104,Funke Osei,R364,Kano,Nassarawa,Kano,Kofar Mata,2024-01-18 17:35:00,2024-01-18 17:49:00,2024-01-18 18:49:00,13.1,2280.0,1.2,wallet,completed,3.7,suv
+T271,D109,Chidi Okafor,R337,Lagos,Ikeja,Lagos,Ajah,2024-02-08 12:12:00,2024-02-08 12:23:00,2024-02-08 13:29:00,16.2,2500.0,1.0,card,completed,4.5,sedan
+T272,D107,Bello Musa,R341,Lagos,Yaba,Lagos,Maryland,2024-02-09 22:21:00,2024-02-09 22:34:00,2024-02-09 23:02:00,5.9,1590.0,1.5,wallet,completed,5.0,suv
+T273,D112,Adaeze Obi,R340,Port Harcourt,GRA Phase 3,Port Harcourt,Trans Amadi,2024-01-28 18:49:00,2024-01-28 19:00:00,2024-01-28 20:15:00,19.5,3960.0,1.5,cash,completed,4.5,sedan
+T274,D105,Chukwuemeka Okonkwo,R255,Lagos,Sangotedo,Lagos,Gbagada,2024-02-04 06:49:00,2024-02-04 07:03:00,2024-02-04 08:12:00,17.0,5960.0,2.0,cash,completed,3.4,sedan
+T275,D104,Funke Osei,R224,Abuja,Garki,Abuja,Asokoro,2024-02-20 18:36:00,2024-02-20 18:42:00,,15.7,3840.0,1.5,wallet,cancelled,,suv
+T276,D107,Bello Musa,R290,Lagos,Lekki Phase 1,Lagos,Mushin,2024-02-11 19:59:00,,,23.4,3120.0,1.0,card,cancelled,,suv
+T277,D112,Adaeze Obi,R373,Abuja,Maitama,Abuja,Wuse 2,2024-02-09 20:48:00,2024-02-09 21:00:00,2024-02-09 22:02:00,17.4,3270.0,1.5,cash,completed,3.4,sedan
+T278,D102,Amara Nwosu,R399,Kano,Kofar Mata,Kano,Bompai,2024-01-23 10:30:00,,,5.0,720.0,1.0,wallet,cancelled,,sedan
+T279,D102,Amara Nwosu,R294,Lagos,Ojodu,Lagos,Berger,2024-02-06 12:20:00,2024-02-06 12:28:00,2024-02-06 13:31:00,19.1,2784.0,1.2,wallet,completed,4.7,sedan
+T280,D104,Funke Osei,R240,Abuja,Jabi,Abuja,Garki,2024-01-20 09:47:00,2024-01-20 09:50:00,2024-01-20 10:31:00,8.8,1380.0,1.0,cash,completed,3.8,suv
+T281,D112,Adaeze Obi,R340,Ibadan,Ring Road,Ibadan,Dugbe,2024-02-17 14:35:00,,,7.0,1250.0,1.0,wallet,cancelled,,sedan
+T282,D101,Emeka Eze,R300,Kano,Nassarawa,Kano,Fagge,2024-02-01 17:55:00,2024-02-01 17:59:00,2024-02-01 18:09:00,2.5,645.0,1.5,wallet,completed,5.0,sedan
+T283,D103,Tunde Alabi,R344,Abuja,Gwarinpa,Abuja,Asokoro,2024-01-16 07:15:00,,,10.2,1530.0,1.0,card,cancelled,,bike
+T284,D101,Emeka Eze,R343,Port Harcourt,Trans Amadi,Port Harcourt,GRA Phase 2,2024-02-01 13:09:00,2024-02-01 13:17:00,2024-02-01 14:29:00,16.2,2580.0,1.0,wallet,completed,4.8,sedan
+T285,D105,Chukwuemeka Okonkwo,R339,Ibadan,Dugbe,Ibadan,Challenge,2024-01-23 12:41:00,2024-01-23 12:46:00,2024-01-23 13:20:00,7.4,1190.0,1.0,wallet,completed,4.8,sedan
+T286,D110,Sade Williams,R343,Abuja,Garki,Abuja,Wuse 2,2024-02-18 09:11:00,2024-02-18 09:19:00,2024-02-18 10:57:00,21.8,2810.0,1.0,card,completed,3.7,sedan
+T287,D103,Tunde Alabi,R248,Abuja,Wuse 2,Abuja,Garki,2024-01-16 14:38:00,2024-01-16 14:50:00,2024-01-16 15:53:00,14.6,2270.0,1.0,cash,completed,4.4,bike
+T288,D106,Ngozi Adeyemi,R326,Abuja,Wuse,Abuja,Asokoro,2024-02-14 10:10:00,2024-02-14 10:16:00,2024-02-14 11:01:00,9.3,1340.0,1.0,cash,completed,4.5,sedan
+T289,D108,Kemi Adeleke,R318,Ibadan,Agodi,Ibadan,Dugbe,2024-01-30 19:25:00,2024-01-30 19:40:00,2024-01-30 19:51:00,2.5,615.0,1.5,wallet,completed,4.9,sedan
+T290,D101,Emeka Eze,R317,Ibadan,Bodija,Ibadan,Challenge,2024-01-17 13:33:00,,,5.6,1840.0,2.0,cash,cancelled,,sedan
+T291,D103,Tunde Alabi,R377,Kano,Sabon Gari,Kano,Nassarawa,2024-02-17 10:29:00,2024-02-17 10:42:00,2024-02-17 11:05:00,6.9,1120.0,1.0,wallet,completed,3.4,bike
+T292,D112,Adaeze Obi,R265,Abuja,Asokoro,Abuja,Wuse 2,2024-02-04 11:45:00,2024-02-04 11:59:00,2024-02-04 12:36:00,8.7,1650.0,1.5,wallet,completed,4.5,sedan
+T293,D109,Chidi Okafor,R286,Kano,  Nassarawa,Kano,Sabon Gari,2024-02-20 10:10:00,,,4.2,1035.0,1.5,card,cancelled,,sedan
+T294,,,R328,Port Harcourt,GRA Phase 2,Port Harcourt,Rumuola,2024-02-15 06:38:00,2024-02-15 06:48:00,2024-02-15 07:18:00,7.7,1800.0,1.5,cash,completed,4.3,suv
+T295,D114,Blessing Eze,R238,Abuja,Wuse 2,Abuja,Garki,2024-01-18 17:02:00,2024-01-18 17:07:00,2024-01-18 18:12:00,17.8,3420.0,1.2,cash,completed,3.4,sedan
+T296,D112,Adaeze Obi,R317,Ibadan,Challenge,Ibadan,Ring Road,2024-02-21 17:59:00,2024-02-21 18:02:00,2024-02-21 18:19:00,3.6,588.0,1.2,card,completed,4.7,sedan
+T297,D106,Ngozi Adeyemi,R379,Ibadan,Agodi,Ibadan,Ring Road,2024-01-28 07:06:00,2024-01-28 07:18:00,,8.9,1410.0,1.0,wallet,cancelled,,sedan
+T298,,,R234,Ibadan,Challenge,Ibadan,Dugbe,2024-02-23 21:33:00,2024-02-23 21:47:00,2024-02-23 22:27:00,8.5,1270.0,1.0,card,completed,5.0,sedan
+T299,D114,Blessing Eze,R307,Abuja,Wuse,Abuja,Gwarinpa,2024-02-10 07:21:00,,,13.5,2140.0,1.0,card,cancelled,,sedan
+T300,D102,Amara Nwosu,R386,Port Harcourt,Rumuola,Port Harcourt,GRA Phase 3,2024-02-20 06:53:00,2024-02-20 06:58:00,2024-02-20 07:29:00,6.5,1665.0,1.5,cash,completed,4.1,sedan
+T301,D113,Rotimi Adeyemi,R345,Kano,Nassarawa,Kano,Bompai,2024-02-04 06:13:00,2024-02-04 06:25:00,2024-02-04 06:52:00,8.9,1800.0,1.2,card,completed,4.7,suv
+T302,D110,Sade Williams,R393,Kano,Fagge,Kano,Nassarawa,2024-02-03 16:45:00,2024-02-03 16:48:00,2024-02-03 17:12:00,6.6,830.0,1.0,cash,completed,4.1,sedan
+T303,D102,Amara Nwosu,R324,Kano,Kofar Mata,Kano,Nassarawa,2024-02-16 10:12:00,2024-02-16 10:20:00,2024-02-16 11:01:00,11.5,3760.0,2.0,cash,completed,4.6,sedan
+T304,D104,Funke Osei,R383,Lagos,Berger,Lagos,Agege,2024-02-17 09:00:00,2024-02-17 09:07:00,2024-02-17 10:22:00,20.5,3300.0,1.0,cash,completed,4.1,suv
+T305,D115,Musa Danjuma,R250,Abuja,Garki,Abuja,Maitama,2024-02-02 14:34:00,2024-02-02 14:42:00,2024-02-02 15:36:00,16.5,3180.0,1.2,cash,completed,3.2,sedan
+T306,D106,Ngozi Adeyemi,R273,Port Harcourt,GRA Phase 3,Port Harcourt,Trans Amadi,2024-02-20 13:10:00,2024-02-20 13:14:00,2024-02-20 13:44:00,7.8,2700.0,2.0,cash,completed,4.0,sedan
+T307,D103,Tunde Alabi,R358,Ibadan,Challenge,Ibadan,Agodi,2024-02-06 15:21:00,2024-02-06 15:27:00,2024-02-06 15:54:00,8.6,2760.0,2.0,wallet,completed,3.4,bike
+T308,D111,Yusuf Lawal,R258,Kano,Bompai,Kano,Fagge,2024-01-24 14:58:00,2024-01-24 15:06:00,2024-01-24 15:35:00,6.4,1236.0,1.2,card,completed,4.1,bike
+T309,D105,Chukwuemeka Okonkwo,R227,Port Harcourt,GRA Phase 3,Port Harcourt,Trans Amadi,2024-02-09 09:20:00,2024-02-09 09:31:00,2024-02-09 10:19:00,12.3,4120.0,2.0,card,completed,3.6,sedan
+T310,D104,Funke Osei,R346,Ibadan,Agodi,Ibadan,Challenge,2024-02-05 13:11:00,2024-02-05 13:24:00,2024-02-05 13:49:00,8.0,1980.0,1.5,card,completed,3.8,suv
+T311,D110,Sade Williams,R327,Lagos,Agege,Lagos,Oshodi,2024-02-25 07:05:00,2024-02-25 07:11:00,,17.1,2970.0,1.0,cash,cancelled,,sedan
+T312,D115,Musa Danjuma,R374,Port Harcourt,Rumuola,Port Harcourt,Trans Amadi,2024-02-03 19:45:00,2024-02-03 19:53:00,2024-02-03 21:01:00,17.9,,2.0,card,completed,3.3,sedan
+T313,D106,Ngozi Adeyemi,R261,Lagos,Sangotedo,Lagos,Victoria Island,2024-02-11 18:40:00,2024-02-11 18:48:00,,18.4,3990.0,1.5,cash,cancelled,,sedan
+T314,D103,Tunde Alabi,R203,Port Harcourt,GRA Phase 3,Port Harcourt,GRA Phase 2,2024-01-19 06:09:00,2024-01-19 06:23:00,,16.1,2560.0,1.0,card,cancelled,,bike
+T315,D108,Kemi Adeleke,R299,Ibadan,Agodi,Ibadan,Challenge,2024-02-06 13:11:00,2024-02-06 13:20:00,2024-02-06 13:55:00,8.0,1230.0,1.0,card,completed,4.9,sedan
+T316,D106,Ngozi Adeyemi,R377,Lagos,VI,Lagos,Magodo,2024-01-20 10:46:00,2024-01-20 11:00:00,2024-01-20 11:48:00,12.4,2556.0,1.2,wallet,completed,4.8,sedan
+T317,D102,Amara Nwosu,R357,Ibadan,Challenge,Ibadan,Dugbe,2024-01-18 16:34:00,2024-01-18 16:49:00,2024-01-18 16:59:00,2.5,555.0,1.5,card,completed,3.8,sedan
+T318,D110,Sade Williams,R362,Port Harcourt,Rumuola,Port Harcourt,GRA Phase 2,2024-02-14 11:36:00,2024-02-14 11:39:00,2024-02-14 12:32:00,15.1,2080.0,1.0,cash,completed,4.1,sedan
+T319,D114,Blessing Eze,R229,Port Harcourt,GRA Phase 2,Port Harcourt,Trans Amadi,2024-02-22 11:58:00,2024-02-22 12:10:00,2024-02-22 13:15:00,14.1,2700.0,1.2,cash,completed,4.1,sedan
+T320,D103,Tunde Alabi,R393,Ibadan,Ring Road,Ibadan,Challenge,2024-02-10 18:15:00,2024-02-10 18:28:00,2024-02-10 18:54:00,6.3,990.0,1.0,cash,completed,4.4,bike
+T321,D105,Chukwuemeka Okonkwo,R298,Kano,Kofar Mata,Kano,Fagge,2024-02-08 21:16:00,2024-02-08 21:21:00,2024-02-08 22:02:00,8.6,1500.0,1.2,card,completed,4.4,sedan
+T322,D111,Yusuf Lawal,R367,Port Harcourt,Trans Amadi,Port Harcourt,Rumuola,2024-02-01 16:17:00,2024-02-01 16:24:00,,17.6,3570.0,1.5,cash,cancelled,,bike
+T323,,,R203,Port Harcourt,GRA Phase 2,Port Harcourt,Trans Amadi,2024-01-19 06:26:00,2024-01-19 06:30:00,2024-01-19 07:08:00,11.2,2160.0,1.2,card,completed,3.5,bike
+T324,D114,Blessing Eze,R232,Abuja,Gwarinpa,Abuja,Wuse,2024-01-22 08:54:00,,,7.0,1110.0,1.0,cash,cancelled,,sedan
+T325,D105,Chukwuemeka Okonkwo,R242,Kano,Sabon Gari,Kano,Bompai,2024-01-19 14:49:00,2024-01-19 14:52:00,2024-01-19 15:17:00,7.2,1010.0,1.0,cash,completed,4.0,sedan
+T326,D108,Kemi Adeleke,R397,Lagos,Surulere,Lagos,VI,2024-02-11 12:39:00,2024-02-11 12:52:00,2024-02-11 13:11:00,6.2,1092.0,1.2,cash,completed,4.2,sedan
+T327,,,R269,Lagos,Lekki Phase 1,Lagos,Ojodu,2024-01-24 16:57:00,2024-01-24 17:06:00,2024-01-24 18:05:00,15.0,3405.0,1.5,cash,completed,4.2,bike
+T328,D110,Sade Williams,R375,Ibadan,Dugbe,Ibadan,Agodi,2024-02-03 18:03:00,2024-02-03 18:16:00,2024-02-03 19:01:00,11.3,2160.0,1.2,cash,completed,4.7,sedan
+T329,D107,Bello Musa,R300,Abuja,Garki,Abuja,Wuse,2024-01-21 17:31:00,2024-01-21 17:35:00,2024-01-21 18:40:00,20.0,2920.0,1.0,cash,completed,4.5,suv
+T330,D105,Chukwuemeka Okonkwo,R205,Kano,Kofar Mata,Kano,Bompai,2024-01-17 16:03:00,2024-01-17 16:11:00,,13.5,1660.0,1.0,wallet,cancelled,,sedan
+T331,D115,Musa Danjuma,R326,Lagos,Lekki Phase 1,Lagos,Yaba,2024-02-25 06:30:00,2024-02-25 06:42:00,,4.5,730.0,1.0,cash,cancelled,,sedan
+T332,D102,Amara Nwosu,R353,Lagos,Ikeja,Lagos,Ikoyi,2024-02-23 13:04:00,2024-02-23 13:19:00,,8.5,1785.0,1.5,wallet,cancelled,,sedan
+T333,D103,Tunde Alabi,R271,Port Harcourt,GRA Phase 2,Port Harcourt,GRA Phase 3,2024-01-24 19:10:00,2024-01-24 19:24:00,2024-01-24 20:19:00,11.4,1480.0,1.0,cash,completed,3.4,bike
+T334,D108,Kemi Adeleke,R246,Lagos,Victoria Island,Lagos,Lekki Phase 1,2024-01-20 15:26:00,2024-01-20 15:40:00,,17.7,2940.0,1.0,card,cancelled,,sedan
+T335,D103,Tunde Alabi,R361,Kano,Kofar Mata,Kano,Nassarawa,2024-02-03 17:26:00,2024-02-03 17:29:00,2024-02-03 18:17:00,9.8,2580.0,2.0,card,completed,4.8,bike
+T336,D104,Funke Osei,R229,Port Harcourt,GRA Phase 2,Port Harcourt,GRA Phase 3,2024-01-24 21:31:00,2024-01-24 21:36:00,2024-01-24 22:01:00,5.9,1040.0,1.0,cash,completed,4.0,suv
+T337,D112,Adaeze Obi,R241,Lagos,Apapa,Lagos,Yaba,2024-01-16 21:32:00,2024-01-16 21:36:00,2024-01-16 22:01:00,6.0,1215.0,1.5,card,completed,3.6,sedan
+T338,D102,Amara Nwosu,R252,Abuja,Jabi,Abuja,Asokoro,2024-02-08 13:04:00,2024-02-08 13:14:00,2024-02-08 14:12:00,17.8,3300.0,1.5,card,completed,3.5,sedan
+T339,D105,Chukwuemeka Okonkwo,R209,Abuja,Garki,Abuja,Maitama,2024-02-20 07:17:00,2024-02-20 07:22:00,2024-02-20 07:46:00,7.2,1605.0,1.5,cash,completed,4.8,sedan
+T340,D103,Tunde Alabi,R223,Ibadan,Challenge,Ibadan,Ring Road,2024-02-10 22:31:00,2024-02-10 22:37:00,2024-02-10 22:58:00,7.1,1452.0,1.2,cash,completed,3.6,bike
+T341,D115,Musa Danjuma,R212,Ibadan,Bodija,Ibadan,Challenge,2024-01-17 21:46:00,2024-01-17 22:01:00,,7.4,,1.5,cash,cancelled,,sedan
+T342,D104,Funke Osei,R262,Abuja,Garki,Abuja,Asokoro,2024-02-25 08:01:00,,,18.6,3615.0,1.5,wallet,cancelled,,suv
+T343,D113,Rotimi Adeyemi,R363,Port Harcourt,Trans Amadi,Port Harcourt,Rumuola,2024-01-15 08:24:00,2024-01-15 08:38:00,,11.5,2100.0,1.5,wallet,cancelled,,suv
+T344,D112,Adaeze Obi,R214,Lagos,Ikoyi,Lagos,Mushin,2024-01-22 18:23:00,2024-01-22 18:33:00,,16.9,2400.0,1.0,cash,cancelled,,sedan
+T345,D111,Yusuf Lawal,R393,Kano,Kofar Mata,Kano,Fagge,2024-01-29 16:22:00,2024-01-29 16:29:00,2024-01-29 16:54:00,8.3,1210.0,1.0,card,completed,4.1,bike
+T346,D109,Chidi Okafor,R295,Port Harcourt,Trans Amadi,Port Harcourt,Rumuola,2024-01-19 12:57:00,2024-01-19 13:07:00,2024-01-19 13:28:00,6.1,880.0,1.0,cash,completed,3.5,sedan
+T347,D111,Yusuf Lawal,R375,Lagos,Sangotedo,Lagos,Berger,2024-02-18 10:30:00,2024-02-18 10:38:00,2024-02-18 11:17:00,11.1,1820.0,1.0,cash,completed,4.8,bike
+T348,D106,Ngozi Adeyemi,R371,Port Harcourt,Trans Amadi,Port Harcourt,Rumuola,2024-02-17 20:29:00,2024-02-17 20:36:00,2024-02-17 21:12:00,10.9,2268.0,1.2,cash,completed,4.1,sedan
+T349,D108,Kemi Adeleke,R383,Abuja,Gwarinpa,Abuja,Maitama,2024-02-18 15:11:00,2024-02-18 15:16:00,2024-02-18 16:13:00,17.4,2810.0,1.0,cash,completed,5.0,sedan
+T350,D112,Adaeze Obi,R238,Lagos,Oshodi,Lagos,Agege,2024-02-07 20:34:00,2024-02-07 20:39:00,2024-02-07 21:43:00,16.9,2150.0,1.0,cash,completed,4.9,sedan
+T351,D109,Chidi Okafor,R275,Port Harcourt,Rumuola,Port Harcourt,GRA Phase 3,2024-02-20 10:51:00,2024-02-20 11:03:00,,12.7,2676.0,1.2,card,cancelled,,sedan
+T352,D114,Blessing Eze,R224,Abuja,Asokoro,Abuja,Garki,2024-02-04 07:38:00,2024-02-04 07:51:00,2024-02-04 08:19:00,8.4,1524.0,1.2,wallet,completed,4.7,sedan
+T353,D108,Kemi Adeleke,R293,Port Harcourt,GRA Phase 2,Port Harcourt,Trans Amadi,2024-02-09 10:45:00,2024-02-09 10:54:00,2024-02-09 11:32:00,10.4,1776.0,1.2,card,completed,4.8,sedan
+T354,D113,Rotimi Adeyemi,R387,Kano,Sabon Gari,Kano,Fagge,2024-02-11 19:08:00,2024-02-11 19:20:00,2024-02-11 20:01:00,10.6,1632.0,1.2,card,completed,3.3,suv
+T355,D115,Musa Danjuma,R343,Port Harcourt,  Trans Amadi,Port Harcourt,GRA Phase 2,2024-02-13 10:12:00,2024-02-13 10:17:00,2024-02-13 11:11:00,17.8,3675.0,1.5,wallet,completed,3.7,sedan
+T356,D105,Chukwuemeka Okonkwo,R368,Port Harcourt,Trans Amadi,Port Harcourt,GRA Phase 2,2024-02-02 19:11:00,2024-02-02 19:21:00,2024-02-02 20:14:00,16.4,2600.0,1.0,card,completed,5.0,sedan
+T357,D114,Blessing Eze,R231,Port Harcourt,Trans Amadi,Port Harcourt,Rumuola,2024-02-07 22:46:00,2024-02-07 22:58:00,2024-02-07 23:16:00,5.5,740.0,1.0,cash,completed,3.8,sedan
+T358,D101,Emeka Eze,R364,Port Harcourt,Rumuola,Port Harcourt,Trans Amadi,2024-01-19 22:12:00,2024-01-19 22:27:00,2024-01-19 23:16:00,12.2,2020.0,1.0,card,completed,3.7,sedan
+T359,D103,Tunde Alabi,R273,Lagos,Surulere,Lagos,Apapa,2024-02-07 21:26:00,2024-02-07 21:34:00,2024-02-07 22:57:00,25.2,3270.0,1.0,cash,completed,4.6,bike
+T360,D112,Adaeze Obi,R318,Ibadan,Bodija,Ibadan,Challenge,2024-01-19 09:52:00,2024-01-19 09:57:00,2024-01-19 10:46:00,11.4,2028.0,1.2,card,completed,4.8,sedan
+T361,D101,Emeka Eze,R378,Lagos,Gbagada,Lagos,Surulere,2024-01-24 13:19:00,2024-01-24 13:24:00,2024-01-24 13:53:00,6.8,1815.0,1.5,cash,completed,3.2,sedan
+T362,D111,Yusuf Lawal,R321,Ibadan,Challenge,Ibadan,Bodija,2024-01-22 14:02:00,2024-01-22 14:06:00,2024-01-22 14:35:00,6.5,790.0,1.0,cash,completed,4.3,bike
+T363,D112,Adaeze Obi,R242,Port Harcourt,Rumuola,Port Harcourt,GRA Phase 3,2024-02-16 13:32:00,2024-02-16 13:44:00,,5.0,,1.0,cash,cancelled,,sedan
+T364,D115,Musa Danjuma,R322,Abuja,Gwarinpa,Abuja,Wuse,2024-02-07 11:28:00,2024-02-07 11:41:00,2024-02-07 13:38:00,23.7,3720.0,1.2,cash,completed,4.1,sedan
+T365,D109,Chidi Okafor,R381,Abuja,Asokoro,Abuja,Garki,2024-02-02 07:05:00,2024-02-02 07:13:00,2024-02-02 08:10:00,13.8,2970.0,1.5,card,completed,3.6,sedan
+T366,D115,Musa Danjuma,R204,Kano,Sabon Gari,Kano,Fagge,2024-02-15 09:25:00,2024-02-15 09:35:00,2024-02-15 10:00:00,7.7,1240.0,1.0,wallet,completed,5.0,sedan
+T367,D104,Funke Osei,R304,Port Harcourt,GRA Phase 3,Port Harcourt,Trans Amadi,2024-01-22 13:53:00,,,16.2,2664.0,1.2,card,cancelled,,suv
+T368,D103,Tunde Alabi,R265,Kano,Nassarawa,Kano,Fagge,2024-02-15 21:14:00,2024-02-15 21:27:00,2024-02-15 22:40:00,15.7,1910.0,1.0,cash,completed,4.9,bike
+T369,D102,Amara Nwosu,R320,Lagos,Ikoyi,Lagos,Magodo,2024-01-27 15:42:00,2024-01-27 15:52:00,2024-01-27 17:00:00,14.9,2424.0,1.2,wallet,completed,3.2,sedan
+T370,D108,Kemi Adeleke,R318,Port Harcourt,Trans Amadi,Port Harcourt,GRA Phase 3,2024-01-17 07:11:00,2024-01-17 07:22:00,2024-01-17 08:11:00,12.5,2080.0,1.0,card,completed,4.5,sedan
+T371,,,R322,Ibadan,Challenge,Ibadan,Agodi,2024-02-19 11:32:00,2024-02-19 11:35:00,2024-02-19 12:00:00,6.1,1380.0,1.5,card,completed,3.8,bike
+T372,D112,Adaeze Obi,R298,Ibadan,Bodija,Ibadan,Agodi,2024-01-21 19:22:00,2024-01-21 19:30:00,,7.7,950.0,1.0,card,cancelled,,sedan
+T373,D101,Emeka Eze,R318,Ibadan,Dugbe,Ibadan,Bodija,2024-02-11 22:57:00,2024-02-11 23:06:00,2024-02-11 23:28:00,4.6,740.0,1.0,wallet,completed,3.9,sedan
+T374,D106,Ngozi Adeyemi,R243,Kano,Kofar Mata,Kano,Sabon Gari,2024-02-23 15:23:00,2024-02-23 15:32:00,2024-02-23 15:53:00,4.6,720.0,1.0,cash,completed,3.7,sedan
+T375,D112,Adaeze Obi,R352,Lagos,VI,Lagos,Ikeja,2024-02-05 14:04:00,2024-02-05 14:16:00,2024-02-05 15:28:00,19.7,2920.0,1.0,card,completed,4.1,sedan
+T376,D105,Chukwuemeka Okonkwo,R372,Ibadan,Challenge,Ibadan,Agodi,2024-02-19 11:56:00,2024-02-19 11:59:00,2024-02-19 12:33:00,8.3,1260.0,1.0,card,completed,3.7,sedan
+T377,D115,Musa Danjuma,R294,Ibadan,Bodija,Ibadan,Dugbe,2024-02-13 10:15:00,2024-02-13 10:20:00,2024-02-13 10:52:00,8.6,2145.0,1.5,cash,completed,4.7,sedan
+T378,D104,Funke Osei,R239,Kano,Fagge,Kano,Nassarawa,2024-01-27 06:15:00,2024-01-27 06:30:00,2024-01-27 07:27:00,11.6,3440.0,2.0,cash,completed,3.6,suv
+T379,D109,Chidi Okafor,R385,Abuja,Jabi,Abuja,Wuse 2,2024-02-15 06:03:00,2024-02-15 06:07:00,2024-02-15 07:00:00,11.2,1550.0,1.0,card,completed,4.4,sedan
+T380,D104,Funke Osei,R231,Lagos,VI,Lagos,Ikoyi,2024-02-17 22:16:00,2024-02-17 22:26:00,2024-02-18 00:13:00,23.6,3170.0,1.0,card,completed,4.7,suv
+T381,D104,Funke Osei,R255,Abuja,Wuse 2,Abuja,Garki,2024-02-01 20:26:00,2024-02-01 20:33:00,2024-02-01 22:00:00,23.3,5740.0,2.0,card,completed,4.2,suv
+T382,D103,Tunde Alabi,R295,Port Harcourt,Trans Amadi,Port Harcourt,Rumuola,2024-02-03 06:41:00,,,4.7,770.0,1.0,cash,cancelled,,bike
+T383,D111,Yusuf Lawal,R314,Lagos,Apapa,Lagos,Gbagada,2024-02-08 06:58:00,2024-02-08 07:07:00,2024-02-08 08:06:00,18.8,3948.0,1.2,card,completed,3.6,bike
+T384,D113,Rotimi Adeyemi,R221,Kano,Nassarawa,Kano,Bompai,2024-02-15 21:47:00,2024-02-15 21:56:00,2024-02-15 22:59:00,13.4,2820.0,1.5,cash,completed,4.5,suv
+T385,D112,Adaeze Obi,R208,Port Harcourt,Trans Amadi,Port Harcourt,Rumuola,2024-01-18 11:40:00,2024-01-18 11:50:00,2024-01-18 12:52:00,18.4,3540.0,1.5,card,completed,4.2,sedan
+T386,D111,Yusuf Lawal,R376,Abuja,Wuse,Abuja,Gwarinpa,2024-02-10 16:28:00,2024-02-10 16:38:00,2024-02-10 18:17:00,22.7,2900.0,1.0,card,completed,3.6,bike
+T387,D115,Musa Danjuma,R206,Ibadan,Ring Road,Ibadan,Bodija,2024-02-19 13:58:00,2024-02-19 14:02:00,2024-02-19 14:43:00,13.3,1760.0,1.0,card,completed,4.3,sedan
+T388,D101,Emeka Eze,R373,Ibadan,Agodi,Ibadan,Challenge,2024-02-15 09:14:00,2024-02-15 09:28:00,2024-02-15 09:40:00,3.6,768.0,1.2,card,completed,3.4,sedan
+T389,D111,Yusuf Lawal,R305,Abuja,Asokoro,Abuja,Maitama,2024-01-24 06:18:00,,,9.3,1370.0,1.0,card,cancelled,,bike
+T390,D104,Funke Osei,R219,Kano,Bompai,Kano,Sabon Gari,2024-01-21 07:03:00,2024-01-21 07:11:00,,12.7,2268.0,1.2,,cancelled,,suv
+T391,D107,Bello Musa,R211,Port Harcourt,GRA Phase 3,Port Harcourt,Trans Amadi,2024-02-21 11:16:00,2024-02-21 11:21:00,2024-02-21 11:53:00,10.0,2640.0,1.5,wallet,completed,4.0,suv
+T392,D114,Blessing Eze,R273,Port Harcourt,Rumuola,Port Harcourt,GRA Phase 3,2024-01-31 14:33:00,2024-01-31 14:41:00,2024-01-31 15:37:00,12.5,2430.0,1.5,wallet,completed,4.7,sedan
+T393,D104,Funke Osei,R267,Abuja,Wuse 2,Abuja,Gwarinpa,2024-01-25 20:27:00,2024-01-25 20:31:00,,18.2,3190.0,1.0,wallet,cancelled,,suv
+T394,D102,Amara Nwosu,R247,Abuja,Wuse,Abuja,Garki,2024-01-25 22:52:00,2024-01-25 22:59:00,2024-01-25 23:55:00,13.5,2150.0,1.0,wallet,completed,4.6,sedan
+T395,D102,Amara Nwosu,R375,Port Harcourt,GRA Phase 2,Port Harcourt,Rumuola,2024-01-22 18:23:00,2024-01-22 18:35:00,2024-01-22 19:44:00,21.0,3180.0,1.2,card,completed,4.7,sedan
+T396,D101,Emeka Eze,R360,Port Harcourt,GRA Phase 2,Port Harcourt,Trans Amadi,2024-02-12 16:46:00,2024-02-12 17:00:00,2024-02-12 17:53:00,15.5,2600.0,1.0,card,completed,3.8,sedan
+T397,D107,Bello Musa,R398,Port Harcourt,GRA Phase 3,Port Harcourt,GRA Phase 2,2024-02-09 08:01:00,,,6.2,1248.0,1.2,cash,cancelled,,suv
+T398,D111,Yusuf Lawal,R371,Ibadan,Ring Road,Ibadan,Agodi,2024-01-21 17:32:00,2024-01-21 17:38:00,2024-01-21 17:59:00,6.1,1590.0,1.5,card,completed,3.4,bike
+T399,D102,Amara Nwosu,R319,Lagos,Ikoyi,Lagos,Oshodi,2024-01-29 10:59:00,2024-01-29 11:09:00,2024-01-29 11:56:00,13.4,2130.0,1.0,cash,completed,4.8,sedan
+T400,D114,Blessing Eze,R276,Abuja,Gwarinpa,Abuja,Asokoro,2024-02-20 07:35:00,2024-02-20 07:39:00,2024-02-20 08:55:00,19.9,6000.0,2.0,card,completed,4.4,sedan
+T401,D109,Chidi Okafor,R246,Lagos,Ikeja,Lagos,Magodo,2024-01-26 18:02:00,2024-01-26 18:06:00,2024-01-26 18:52:00,11.2,2172.0,1.2,card,completed,4.3,sedan
+T402,D103,Tunde Alabi,R312,Lagos,Ajah,Lagos,Ikeja,2024-02-18 06:00:00,2024-02-18 06:09:00,2024-02-18 06:37:00,7.2,1410.0,1.5,wallet,completed,4.5,bike
+T403,D112,Adaeze Obi,R233,Kano,Sabon Gari,Kano,Nassarawa,2024-01-23 06:12:00,2024-01-23 06:16:00,2024-01-23 07:06:00,10.6,1710.0,1.0,card,completed,4.4,sedan
+T404,D104,Funke Osei,R238,Lagos,Sangotedo,Lagos,Magodo,2024-02-14 19:01:00,2024-02-14 19:05:00,2024-02-14 19:46:00,8.4,1620.0,1.5,cash,completed,4.7,suv
+T405,D101,Emeka Eze,R362,Port Harcourt,GRA Phase 2,Port Harcourt,GRA Phase 3,2024-02-11 19:54:00,2024-02-11 20:04:00,2024-02-11 21:15:00,14.4,4500.0,2.0,card,completed,3.9,sedan
+T406,D114,Blessing Eze,R336,Kano,Fagge,Kano,Nassarawa,2024-01-16 19:36:00,2024-01-16 19:44:00,2024-01-16 20:29:00,9.5,1935.0,1.5,card,completed,4.3,sedan
+T407,D112,Adaeze Obi,R313,Abuja,Asokoro,Abuja,Garki,2024-01-29 22:14:00,2024-01-29 22:26:00,2024-01-29 23:35:00,21.2,4470.0,1.5,card,completed,4.9,sedan
+T408,D113,Rotimi Adeyemi,R273,Abuja,Gwarinpa,Abuja,Maitama,2024-01-20 21:08:00,2024-01-20 21:13:00,2024-01-20 21:50:00,8.2,1280.0,1.0,card,completed,3.6,suv
+T409,D111,Yusuf Lawal,R209,Abuja,Maitama,Abuja,Jabi,2024-01-19 16:27:00,2024-01-19 16:31:00,2024-01-19 17:42:00,17.9,2280.0,1.0,card,completed,4.6,bike
+T410,D114,Blessing Eze,R381,Ibadan,Challenge,Ibadan,Bodija,2024-01-18 20:51:00,2024-01-18 21:01:00,2024-01-18 21:49:00,10.6,1750.0,1.0,cash,completed,4.7,sedan
+T411,D115,Musa Danjuma,R275,Port Harcourt,GRA Phase 3,Port Harcourt,Trans Amadi,2024-02-12 22:31:00,2024-02-12 22:45:00,2024-02-12 23:56:00,19.6,3036.0,1.2,cash,completed,4.7,sedan
+T412,D113,Rotimi Adeyemi,R330,Kano,Sabon Gari,Kano,Bompai,2024-01-25 08:17:00,2024-01-25 08:25:00,2024-01-25 09:00:00,10.6,1540.0,1.0,card,completed,4.6,suv
+T413,D114,Blessing Eze,R314,Ibadan,Dugbe,Ibadan,Bodija,2024-01-24 06:45:00,2024-01-24 07:00:00,2024-01-24 07:32:00,8.9,1320.0,1.2,card,completed,3.3,sedan
+T414,D101,Emeka Eze,R303,Ibadan,Dugbe,Ibadan,Challenge,2024-02-19 15:46:00,2024-02-19 16:00:00,2024-02-19 16:27:00,5.7,960.0,1.2,cash,completed,4.5,sedan
+T415,D111,Yusuf Lawal,R399,Kano,Sabon Gari,Kano,Kofar Mata,2024-01-27 15:05:00,2024-01-27 15:08:00,2024-01-27 15:43:00,8.8,1260.0,1.0,card,completed,3.6,bike
+T416,D101,Emeka Eze,R262,Lagos,Apapa,Lagos,Ajah,2024-02-03 19:32:00,2024-02-03 19:36:00,2024-02-03 20:44:00,16.0,3264.0,1.2,cash,completed,3.3,sedan
+T417,D108,Kemi Adeleke,R349,Port Harcourt,GRA Phase 3,Port Harcourt,Trans Amadi,2024-02-20 13:22:00,2024-02-20 13:29:00,2024-02-20 14:03:00,7.8,1300.0,1.0,cash,completed,3.4,sedan
+T418,D103,Tunde Alabi,R224,Kano,Bompai,Kano,Nassarawa,2024-01-18 19:56:00,2024-01-18 20:01:00,2024-01-18 20:35:00,7.9,1392.0,1.2,wallet,completed,4.2,bike
+T419,D108,Kemi Adeleke,R237,Kano,Bompai,Kano,Fagge,2024-02-16 10:31:00,2024-02-16 10:45:00,2024-02-16 11:14:00,6.3,2260.0,2.0,cash,completed,4.0,sedan
+T420,D102,Amara Nwosu,R231,Ibadan,Agodi,Ibadan,Bodija,2024-02-07 15:02:00,2024-02-07 15:13:00,2024-02-07 15:27:00,4.0,684.0,1.2,cash,completed,4.6,sedan
+T421,D115,Musa Danjuma,R390,Port Harcourt,GRA Phase 3,Port Harcourt,GRA Phase 2,2024-02-15 06:07:00,2024-02-15 06:18:00,2024-02-15 06:50:00,8.3,2145.0,1.5,wallet,completed,4.0,sedan
+T422,D103,Tunde Alabi,R318,Abuja,Gwarinpa,Abuja,Wuse,2024-02-12 20:09:00,2024-02-12 20:23:00,2024-02-12 20:58:00,9.4,2370.0,1.5,card,completed,4.2,bike
+T423,D114,Blessing Eze,R347,Abuja,Jabi,Abuja,Wuse 2,2024-02-24 15:35:00,2024-02-24 15:48:00,2024-02-24 16:23:00,7.2,1100.0,1.0,wallet,completed,4.6,sedan
+T424,D101,Emeka Eze,R205,Lagos,Apapa,Lagos,Yaba,2024-02-01 12:15:00,2024-02-01 12:29:00,2024-02-01 13:59:00,19.6,3030.0,1.0,card,completed,3.9,sedan
+T425,D107,Bello Musa,R298,Lagos,Ikoyi,Lagos,Oshodi,2024-01-31 08:07:00,2024-01-31 08:11:00,2024-01-31 09:06:00,15.8,2170.0,1.0,cash,completed,3.8,suv
+T426,D101,Emeka Eze,R226,Lagos,Sangotedo,Lagos,Ojodu,2024-02-04 10:26:00,2024-02-04 10:34:00,2024-02-04 10:57:00,7.6,1350.0,1.0,wallet,completed,4.3,sedan
+T427,D101,Emeka Eze,R305,Port Harcourt,Trans Amadi,Port Harcourt,Rumuola,2024-01-19 21:01:00,2024-01-19 21:10:00,2024-01-19 21:51:00,11.6,2030.0,1.0,cash,completed,3.6,sedan
+T428,D102,Amara Nwosu,R296,Ibadan,Ring Road,Ibadan,Dugbe,2024-02-18 11:50:00,2024-02-18 11:56:00,2024-02-18 12:26:00,7.8,2260.0,2.0,card,completed,4.9,sedan
+T429,D115,Musa Danjuma,R375,Kano,Sabon Gari,Kano,Bompai,2024-02-08 17:53:00,2024-02-08 18:06:00,,4.3,888.0,1.2,wallet,cancelled,,sedan
+T430,D109,Chidi Okafor,R357,Port Harcourt,Trans Amadi,Port Harcourt,GRA Phase 2,2024-02-16 16:56:00,,,17.0,,1.5,card,cancelled,,sedan
+T431,D111,Yusuf Lawal,R203,Lagos,Magodo,Lagos,Victoria Island,2024-01-26 19:35:00,2024-01-26 19:49:00,,15.9,5280.0,2.0,cash,cancelled,,bike
+T432,D114,Blessing Eze,R300,Kano,Kofar Mata,Kano,Sabon Gari,2024-01-26 06:07:00,2024-01-26 06:17:00,2024-01-26 06:42:00,7.5,990.0,1.0,card,completed,4.4,sedan
+T433,D113,Rotimi Adeyemi,R293,Abuja,Maitama,Abuja,Gwarinpa,2024-01-17 14:31:00,,,18.9,2500.0,1.0,card,cancelled,,suv
+T434,D112,Adaeze Obi,R217,Ibadan,Challenge,Ibadan,Ring Road,2024-02-21 10:47:00,,,3.0,530.0,1.0,card,cancelled,,sedan
+T435,D105,Chukwuemeka Okonkwo,R310,Ibadan,Agodi,Ibadan,Bodija,2024-02-25 07:54:00,2024-02-25 08:02:00,2024-02-25 08:19:00,5.5,1176.0,1.2,card,completed,4.1,sedan
+T436,D115,Musa Danjuma,R281,Kano,Kofar Mata,Kano,Bompai,2024-01-15 18:12:00,2024-01-15 18:20:00,2024-01-15 18:36:00,3.4,530.0,1.0,card,completed,4.9,sedan
+T437,D111,Yusuf Lawal,R311,Lagos,Victoria Island,Lagos,Ikoyi,2024-01-16 16:53:00,2024-01-16 17:00:00,2024-01-16 17:41:00,8.9,1584.0,1.2,wallet,completed,4.6,bike
+T438,D111,Yusuf Lawal,R222,Kano,Kofar Mata,Kano,Nassarawa,2024-01-18 07:24:00,2024-01-18 07:32:00,2024-01-18 08:07:00,11.3,1820.0,1.0,cash,completed,3.7,bike
+T439,D105,Chukwuemeka Okonkwo,R359,Kano,Bompai,Kano,Nassarawa,2024-02-10 13:55:00,2024-02-10 14:07:00,2024-02-10 14:46:00,10.5,2490.0,1.5,wallet,completed,4.3,sedan
+T440,D106,Ngozi Adeyemi,R227,Ibadan,Ring Road,Ibadan,Bodija,2024-01-15 08:37:00,2024-01-15 08:52:00,2024-01-15 09:30:00,9.0,1570.0,1.0,card,completed,4.0,sedan
+T441,D101,Emeka Eze,R312,Abuja,Garki,Abuja,Jabi,2024-02-16 17:19:00,2024-02-16 17:31:00,2024-02-16 18:39:00,17.5,2920.0,1.0,card,completed,3.7,sedan
+T442,D104,Funke Osei,R309,Ibadan,Challenge,Ibadan,Bodija,2024-02-06 12:12:00,2024-02-06 12:25:00,2024-02-06 12:58:00,10.0,2004.0,1.2,card,completed,4.3,suv
+T443,D107,Bello Musa,R317,Port Harcourt,GRA Phase 3,Port Harcourt,GRA Phase 2,2024-01-17 21:14:00,2024-01-17 21:17:00,2024-01-17 22:10:00,12.6,3060.0,1.5,card,completed,4.5,suv
+T444,D103,Tunde Alabi,R219,Lagos,Mushin,Lagos,Victoria Island,2024-02-06 06:35:00,2024-02-06 06:39:00,2024-02-06 07:00:00,6.9,1212.0,1.2,cash,completed,3.6,bike
+T445,D109,Chidi Okafor,R206,Abuja,Maitama,Abuja,Garki,2024-01-26 14:58:00,2024-01-26 15:02:00,2024-01-26 15:24:00,5.3,1275.0,1.5,card,completed,4.9,sedan
+T446,D109,Chidi Okafor,R231,Ibadan,Agodi,Ibadan,Bodija,2024-01-24 10:50:00,2024-01-24 10:56:00,2024-01-24 11:11:00,4.4,756.0,1.2,cash,completed,4.9,sedan
+T447,D103,Tunde Alabi,R362,Port Harcourt,GRA Phase 3,Port Harcourt,GRA Phase 2,2024-02-01 10:54:00,2024-02-01 11:05:00,2024-02-01 12:15:00,15.8,2730.0,1.0,wallet,completed,3.3,bike
+T448,D108,Kemi Adeleke,R283,Ibadan,Agodi,Ibadan,Ring Road,2024-02-07 22:44:00,2024-02-07 22:54:00,,9.3,1668.0,1.2,wallet,cancelled,,sedan
+T449,D104,Funke Osei,R347,Port Harcourt,Trans Amadi,Port Harcourt,GRA Phase 3,2024-01-25 17:16:00,2024-01-25 17:27:00,2024-01-25 17:47:00,5.3,1056.0,1.2,cash,completed,4.3,suv
+T450,D107,Bello Musa,R270,Port Harcourt,Trans Amadi,Port Harcourt,GRA Phase 3,2024-02-08 06:11:00,2024-02-08 06:21:00,2024-02-08 06:57:00,7.5,1428.0,1.2,wallet,completed,4.1,suv
+T451,D102,Amara Nwosu,R252,Port Harcourt,  GRA Phase 2,Port Harcourt,Trans Amadi,2024-02-05 12:43:00,2024-02-05 12:51:00,2024-02-05 13:16:00,7.5,1476.0,1.2,cash,completed,5.0,sedan
+T452,D105,Chukwuemeka Okonkwo,R304,Port Harcourt,Rumuola,Port Harcourt,GRA Phase 3,2024-02-21 06:30:00,2024-02-21 06:43:00,2024-02-21 07:33:00,10.7,1780.0,1.0,cash,completed,4.5,sedan
+T453,D108,Kemi Adeleke,R281,Kano,Sabon Gari,Kano,Nassarawa,2024-01-27 19:49:00,2024-01-27 20:03:00,2024-01-27 20:25:00,7.3,2140.0,2.0,wallet,completed,4.8,sedan
+T454,D106,Ngozi Adeyemi,R309,Port Harcourt,GRA Phase 3,Port Harcourt,Rumuola,2024-02-09 15:20:00,2024-02-09 15:32:00,2024-02-09 15:46:00,4.5,750.0,1.0,wallet,completed,4.3,sedan
+T455,D104,Funke Osei,R249,Kano,Nassarawa,Kano,Kofar Mata,2024-02-14 09:21:00,2024-02-14 09:33:00,2024-02-14 10:12:00,12.3,2328.0,1.2,wallet,completed,3.5,suv
+T456,D115,Musa Danjuma,R260,Kano,Sabon Gari,Kano,Fagge,2024-02-02 22:04:00,2024-02-02 22:14:00,2024-02-02 22:25:00,3.2,490.0,1.0,card,completed,3.5,sedan
+T457,,,R280,Abuja,Maitama,Abuja,Garki,2024-02-11 21:10:00,,,15.7,2180.0,1.0,card,cancelled,,sedan
+T458,D113,Rotimi Adeyemi,R346,Abuja,Gwarinpa,Abuja,Garki,2024-02-15 20:29:00,,,7.1,1335.0,1.5,card,cancelled,,suv
+T459,D110,Sade Williams,R369,Kano,Bompai,Kano,Kofar Mata,2024-01-26 09:25:00,,,14.2,1910.0,1.0,wallet,cancelled,,sedan
+T460,D108,Kemi Adeleke,R295,Kano,Kofar Mata,Kano,Nassarawa,2024-01-19 09:32:00,2024-01-19 09:47:00,2024-01-19 10:26:00,11.4,1650.0,1.0,cash,completed,4.0,sedan
+T461,D112,Adaeze Obi,R210,Kano,Fagge,Kano,Kofar Mata,2024-01-15 14:07:00,2024-01-15 14:21:00,2024-01-15 15:14:00,13.4,2805.0,1.5,cash,completed,4.2,sedan
+T462,D114,Blessing Eze,R356,Abuja,Maitama,Abuja,Wuse 2,2024-01-21 11:18:00,2024-01-21 11:22:00,2024-01-21 12:24:00,14.5,2080.0,1.0,card,completed,3.5,sedan
+T463,,,R300,Kano,Nassarawa,Kano,Fagge,2024-02-03 20:03:00,2024-02-03 20:15:00,2024-02-03 20:27:00,2.5,,1.0,cash,completed,3.6,suv
+T464,D111,Yusuf Lawal,R371,Lagos,Gbagada,Lagos,Ikeja,2024-01-25 11:02:00,2024-01-25 11:11:00,2024-01-25 12:02:00,12.4,2508.0,1.2,wallet,completed,3.6,bike
+T465,D106,Ngozi Adeyemi,R303,Port Harcourt,GRA Phase 3,Port Harcourt,GRA Phase 2,2024-02-25 16:00:00,2024-02-25 16:09:00,2024-02-25 16:45:00,8.6,1380.0,1.2,cash,completed,3.3,sedan
+T466,D102,Amara Nwosu,R265,Ibadan,Challenge,Ibadan,Ring Road,2024-01-21 16:40:00,2024-01-21 16:54:00,,5.2,,1.0,card,cancelled,,sedan
+T467,D108,Kemi Adeleke,R329,Kano,Kofar Mata,Kano,Fagge,2024-02-21 06:14:00,2024-02-21 06:17:00,2024-02-21 06:44:00,8.0,1668.0,1.2,cash,completed,4.3,sedan
+T468,D104,Funke Osei,R390,Lagos,Gbagada,Lagos,Magodo,2024-02-05 10:17:00,2024-02-05 10:25:00,2024-02-05 11:33:00,14.9,4940.0,2.0,card,completed,4.6,suv
+T469,D101,Emeka Eze,R379,Abuja,Wuse,Abuja,Jabi,2024-01-29 18:33:00,2024-01-29 18:41:00,2024-01-29 19:18:00,7.9,1240.0,1.0,cash,completed,3.3,sedan
+T470,D109,Chidi Okafor,R221,Abuja,Maitama,Abuja,Jabi,2024-02-11 20:19:00,2024-02-11 20:24:00,2024-02-11 21:43:00,18.8,2530.0,1.0,card,completed,4.2,sedan
+T471,D106,Ngozi Adeyemi,R321,Kano,Bompai,Kano,Fagge,2024-02-12 19:32:00,2024-02-12 19:44:00,2024-02-12 20:12:00,9.5,2370.0,1.5,card,completed,4.7,sedan
+T472,D112,Adaeze Obi,R319,Abuja,Garki,Abuja,Gwarinpa,2024-02-03 20:18:00,2024-02-03 20:27:00,2024-02-03 21:14:00,14.4,2580.0,1.2,,completed,3.5,sedan
+T473,D108,Kemi Adeleke,R391,Kano,Bompai,Kano,Kofar Mata,2024-02-07 18:31:00,2024-02-07 18:38:00,2024-02-07 19:21:00,9.2,2145.0,1.5,card,completed,4.9,sedan
+T474,D113,Rotimi Adeyemi,R377,Port Harcourt,Trans Amadi,Port Harcourt,Rumuola,2024-02-07 07:41:00,2024-02-07 07:50:00,2024-02-07 08:53:00,16.1,2650.0,1.0,cash,completed,4.5,suv
+T475,D105,Chukwuemeka Okonkwo,R370,Abuja,Gwarinpa,Abuja,Jabi,2024-01-25 06:07:00,2024-01-25 06:22:00,2024-01-25 06:45:00,6.3,1530.0,1.5,cash,completed,4.1,sedan
+T476,D105,Chukwuemeka Okonkwo,R351,Ibadan,Challenge,Ibadan,Agodi,2024-02-03 19:48:00,2024-02-03 20:02:00,2024-02-03 21:00:00,12.7,1932.0,1.2,cash,completed,4.9,sedan
+T477,D101,Emeka Eze,R335,Lagos,Lekki Phase 2,Lagos,Berger,2024-02-10 15:46:00,2024-02-10 15:55:00,2024-02-10 16:21:00,7.7,1090.0,1.0,wallet,completed,4.9,sedan
+T478,D103,Tunde Alabi,R313,Abuja,  Garki,Abuja,Gwarinpa,2024-02-24 09:55:00,2024-02-24 10:08:00,2024-02-24 10:36:00,8.7,1800.0,1.5,card,completed,3.3,bike
+T479,D105,Chukwuemeka Okonkwo,R225,Lagos,VI,Lagos,Lekki Phase 1,2024-01-28 22:50:00,2024-01-28 22:53:00,2024-01-28 23:47:00,11.2,2028.0,1.2,card,completed,4.3,sedan
+T480,D104,Funke Osei,R357,Port Harcourt,Trans Amadi,Port Harcourt,GRA Phase 3,2024-01-18 17:55:00,2024-01-18 18:03:00,2024-01-18 19:31:00,19.9,3585.0,1.5,cash,completed,4.3,suv
+T481,D106,Ngozi Adeyemi,R332,Kano,Kofar Mata,Kano,Bompai,2024-02-10 12:00:00,2024-02-10 12:13:00,2024-02-10 13:01:00,11.4,1930.0,1.0,card,completed,4.4,sedan
+T482,D106,Ngozi Adeyemi,R388,Kano,Bompai,Kano,Nassarawa,2024-02-08 15:38:00,2024-02-08 15:44:00,2024-02-08 16:11:00,8.9,3080.0,2.0,cash,completed,3.7,sedan
+T483,D108,Kemi Adeleke,R262,Lagos,Magodo,Lagos,VI,2024-01-30 12:10:00,,,20.6,3340.0,1.0,cash,cancelled,,sedan
+T484,D105,Chukwuemeka Okonkwo,R337,Kano,Nassarawa,Kano,Sabon Gari,2024-02-24 21:05:00,2024-02-24 21:20:00,2024-02-24 21:57:00,8.8,1510.0,1.0,card,completed,4.4,sedan
+T485,D105,Chukwuemeka Okonkwo,R229,Lagos,Sangotedo,Lagos,Lekki Phase 2,2024-01-20 16:47:00,2024-01-20 16:59:00,2024-01-20 18:22:00,20.2,3320.0,1.0,,completed,4.9,sedan
+T486,D114,Blessing Eze,R398,Kano,Bompai,Kano,Sabon Gari,2024-02-07 10:33:00,2024-02-07 10:46:00,2024-02-07 11:16:00,10.2,2040.0,1.5,card,completed,3.5,sedan
+T487,D110,Sade Williams,R371,Port Harcourt,GRA Phase 3,Port Harcourt,Trans Amadi,2024-01-17 16:19:00,2024-01-17 16:30:00,2024-01-17 18:02:00,21.8,4170.0,1.5,card,completed,3.7,sedan
+T488,D112,Adaeze Obi,R258,Abuja,Wuse,Abuja,Jabi,2024-01-18 11:54:00,2024-01-18 12:04:00,2024-01-18 13:36:00,18.5,2550.0,1.0,card,completed,3.8,sedan
+T489,D109,Chidi Okafor,R250,Port Harcourt,Rumuola,Port Harcourt,Trans Amadi,2024-02-19 18:06:00,2024-02-19 18:11:00,,8.2,1380.0,1.0,card,cancelled,,sedan
+T490,D103,Tunde Alabi,R251,Abuja,Maitama,Abuja,Wuse,2024-02-25 06:23:00,2024-02-25 06:37:00,2024-02-25 08:01:00,22.6,2850.0,1.0,cash,completed,4.9,bike
+T491,D109,Chidi Okafor,R361,Port Harcourt,Trans Amadi,Port Harcourt,GRA Phase 2,2024-02-09 13:02:00,2024-02-09 13:06:00,2024-02-09 13:40:00,8.1,1210.0,1.0,cash,completed,4.6,sedan
+T492,D106,Ngozi Adeyemi,R222,Lagos,Ikeja,Lagos,Surulere,2024-01-22 21:41:00,2024-01-22 21:54:00,,24.2,4845.0,1.5,cash,cancelled,,sedan
+T493,D110,Sade Williams,R217,Abuja,Wuse 2,Abuja,Asokoro,2024-02-18 11:25:00,2024-02-18 11:39:00,2024-02-18 12:04:00,5.5,1700.0,2.0,card,completed,3.3,sedan
+T494,D113,Rotimi Adeyemi,R247,Abuja,Jabi,Abuja,Wuse 2,2024-02-22 11:00:00,2024-02-22 11:11:00,2024-02-22 11:54:00,13.5,1870.0,1.0,cash,completed,3.4,suv
+T495,D105,Chukwuemeka Okonkwo,R369,Port Harcourt,GRA Phase 3,Port Harcourt,Rumuola,2024-01-15 13:19:00,2024-01-15 13:22:00,2024-01-15 14:38:00,17.8,3228.0,1.2,cash,completed,4.2,sedan
+T496,D109,Chidi Okafor,R370,Ibadan,Ring Road,Ibadan,Bodija,2024-01-17 13:02:00,2024-01-17 13:08:00,2024-01-17 13:24:00,3.3,560.0,1.0,wallet,completed,3.6,sedan
+T497,D105,Chukwuemeka Okonkwo,R242,Port Harcourt,Trans Amadi,Port Harcourt,Rumuola,2024-02-09 20:05:00,2024-02-09 20:12:00,2024-02-09 21:00:00,12.0,2120.0,1.0,card,completed,5.0,sedan
+T498,D114,Blessing Eze,R308,Ibadan,Challenge,Ibadan,Ring Road,2024-01-24 16:50:00,2024-01-24 16:59:00,2024-01-24 17:15:00,5.1,900.0,1.0,wallet,completed,3.4,sedan
+T499,D106,Ngozi Adeyemi,R271,Port Harcourt,GRA Phase 3,Port Harcourt,GRA Phase 2,2024-01-15 09:24:00,2024-01-15 09:30:00,,11.9,1500.0,1.0,card,cancelled,,sedan
+T500,D105,Chukwuemeka Okonkwo,R213,Ibadan,Dugbe,Ibadan,Bodija,2024-01-25 16:48:00,2024-01-25 16:57:00,2024-01-25 17:11:00,3.6,1220.0,2.0,card,completed,4.3,sedan
