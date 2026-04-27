@@ -1,0 +1,77 @@
+[2026-04-26T17:39:50.146+0100] {processor.py:161} INFO - Started process (PID=8406) to work on /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:39:50.147+0100] {processor.py:830} INFO - Processing file /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-04-26T17:39:50.147+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:39:50.147+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:39:50.152+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:39:50.283+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:39:50.283+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-04-26T17:39:50.288+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:39:50.287+0100] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-04-26T17:39:50.296+0100] {processor.py:183} INFO - Processing /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.151 seconds
+[2026-04-26T17:41:46.301+0100] {processor.py:161} INFO - Started process (PID=8593) to work on /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:41:46.302+0100] {processor.py:830} INFO - Processing file /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-04-26T17:41:46.302+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:41:46.302+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:41:46.307+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:41:46.348+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:41:46.348+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-04-26T17:41:46.351+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:41:46.351+0100] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-04-26T17:41:46.358+0100] {processor.py:183} INFO - Processing /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.058 seconds
+[2026-04-26T17:43:43.528+0100] {processor.py:161} INFO - Started process (PID=8765) to work on /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:43:43.529+0100] {processor.py:830} INFO - Processing file /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-04-26T17:43:43.529+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:43:43.529+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:43:43.534+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:43:43.581+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:43:43.580+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-04-26T17:43:43.584+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:43:43.584+0100] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-04-26T17:43:43.593+0100] {processor.py:183} INFO - Processing /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.066 seconds
+[2026-04-26T17:45:29.747+0100] {processor.py:161} INFO - Started process (PID=8936) to work on /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:45:29.748+0100] {processor.py:830} INFO - Processing file /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-04-26T17:45:29.748+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:45:29.748+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:45:29.753+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:45:29.795+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:45:29.795+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-04-26T17:45:29.798+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:45:29.798+0100] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-04-26T17:45:29.805+0100] {processor.py:183} INFO - Processing /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.060 seconds
+[2026-04-26T17:47:17.864+0100] {processor.py:161} INFO - Started process (PID=9109) to work on /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:47:17.864+0100] {processor.py:830} INFO - Processing file /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-04-26T17:47:17.864+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:47:17.864+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:47:17.870+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:47:17.913+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:47:17.913+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-04-26T17:47:17.916+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:47:17.916+0100] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-04-26T17:47:17.924+0100] {processor.py:183} INFO - Processing /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.062 seconds
+[2026-04-26T17:49:16.177+0100] {processor.py:161} INFO - Started process (PID=9434) to work on /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:49:16.177+0100] {processor.py:830} INFO - Processing file /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-04-26T17:49:16.178+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:49:16.178+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:49:16.183+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:49:16.250+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:49:16.250+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-04-26T17:49:16.253+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:49:16.253+0100] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-04-26T17:49:16.262+0100] {processor.py:183} INFO - Processing /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.086 seconds
+[2026-04-26T17:51:18.801+0100] {processor.py:161} INFO - Started process (PID=9602) to work on /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:51:18.801+0100] {processor.py:830} INFO - Processing file /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-04-26T17:51:18.802+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:51:18.802+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:51:18.807+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:51:18.853+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:51:18.853+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-04-26T17:51:18.857+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:51:18.857+0100] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-04-26T17:51:18.864+0100] {processor.py:183} INFO - Processing /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.064 seconds
+[2026-04-26T17:53:14.346+0100] {processor.py:161} INFO - Started process (PID=9734) to work on /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:53:14.347+0100] {processor.py:830} INFO - Processing file /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-04-26T17:53:14.347+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:53:14.347+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:53:14.352+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:53:14.396+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:53:14.396+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-04-26T17:53:14.399+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:53:14.399+0100] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-04-26T17:53:14.406+0100] {processor.py:183} INFO - Processing /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.061 seconds
+[2026-04-26T17:55:15.591+0100] {processor.py:161} INFO - Started process (PID=9892) to work on /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:55:15.591+0100] {processor.py:830} INFO - Processing file /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-04-26T17:55:15.591+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:55:15.591+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:55:15.596+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:55:15.641+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:55:15.641+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-04-26T17:55:15.645+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:55:15.644+0100] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-04-26T17:55:15.652+0100] {processor.py:183} INFO - Processing /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.063 seconds
+[2026-04-26T17:57:18.015+0100] {processor.py:161} INFO - Started process (PID=10143) to work on /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:57:18.016+0100] {processor.py:830} INFO - Processing file /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-04-26T17:57:18.016+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:57:18.016+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:57:18.022+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:57:18.074+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:57:18.074+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-04-26T17:57:18.078+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:57:18.078+0100] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-04-26T17:57:18.085+0100] {processor.py:183} INFO - Processing /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.071 seconds
+[2026-04-26T17:59:08.585+0100] {processor.py:161} INFO - Started process (PID=10326) to work on /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:59:08.585+0100] {processor.py:830} INFO - Processing file /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-04-26T17:59:08.585+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:59:08.585+0100] {dagbag.py:545} INFO - Filling up the DagBag from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:59:08.590+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-04-26T17:59:08.634+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:59:08.634+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-04-26T17:59:08.637+0100] {logging_mixin.py:188} INFO - [2026-04-26T17:59:08.637+0100] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-04-26T17:59:08.644+0100] {processor.py:183} INFO - Processing /Users/malone/data-engineering-pathway/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.060 seconds
