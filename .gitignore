@@ -8,8 +8,8 @@ __pycache__/
 secrets.py
 config.py
 *.key
-secrets.py
-config.py
-*.key
-secrets.py
-config.py
+.venv/
+projects/hospital-lakehouse/delta/
+projects/hospital-lakehouse/airflow_home/
+projects/hospital-lakehouse/include/delta/
+projects/hospital-lakehouse/.astro/

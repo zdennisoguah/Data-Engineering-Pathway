@@ -1,45 +1,39 @@
-Overview
-========
+# Hospital Operations Lakehouse
 
-Welcome to Astronomer! This project was generated after you ran 'astro dev init' using the Astronomer CLI. This readme describes the contents of the project, as well as how to run Apache Airflow on your local machine.
+End-to-end healthcare data lakehouse processing 55,500 patient
+admission records using Medallion Architecture, PII masking,
+and Apache Airflow orchestration.
 
-Project Contents
-================
+## Dataset
+Kaggle Healthcare Dataset — 55,500 rows, 15 columns.
+Source: kaggle.com/datasets/prasad22/healthcare-dataset
 
-Your Astro project contains the following files and folders:
+## Architecture
+Bronze → Silver → Gold on local PySpark with Delta Lake.
+Orchestrated via Apache Airflow DAG on Astronomer.
 
-- dags: This folder contains the Python files for your Airflow DAGs. By default, this directory includes one example DAG:
-    - `example_astronauts`: This DAG shows a simple ETL pipeline example that queries the list of astronauts currently in space from the Open Notify API and prints a statement for each astronaut. The DAG uses the TaskFlow API to define tasks in Python, and dynamic task mapping to dynamically print a statement for each astronaut. For more on how this DAG works, see our [Getting started tutorial](https://www.astronomer.io/docs/learn/get-started-with-airflow).
-- Dockerfile: This file contains a versioned Astro Runtime Docker image that provides a differentiated Airflow experience. If you want to execute other commands or overrides at runtime, specify them here.
-- include: This folder contains any additional files that you want to include as part of your project. It is empty by default.
-- packages.txt: Install OS-level packages needed for your project by adding them to this file. It is empty by default.
-- requirements.txt: Install Python packages needed for your project by adding them to this file. It is empty by default.
-- plugins: Add custom or community plugins for your project to this file. It is empty by default.
-- airflow_settings.yaml: Use this local-only file to specify Airflow Connections, Variables, and Pools instead of entering them in the Airflow UI as you develop DAGs in this project.
+## What's new vs Project 1
+- PII masking: patient names hashed with SHA256 at Silver layer
+- Multi-source joins: patients + admissions joined at Gold layer
+- Apache Airflow: Python-based DAG with 6 tasks, retries, validation
+- 55,500 rows vs 500 — order of magnitude larger dataset
 
-Deploy Your Project Locally
-===========================
+## Tech Stack
+Python · PySpark 3.5.3 · Delta Spark 3.3.0 · Apache Airflow 2.9 ·
+Astronomer · OrbStack · Delta Lake
 
-Start Airflow on your local machine by running 'astro dev start'.
+## Pipeline
+start → ingest_bronze → transform_silver → build_gold → validate → end
 
-This command will spin up five Docker containers on your machine, each for a different Airflow component:
+## Gold Tables
+| Table | Rows | Description |
+|---|---|---|
+| admission_summary | 18 | Avg stay, abnormal rate per condition |
+| hospital_revenue | 20 | Revenue per hospital |
+| doctor_performance | 20 | Patients and billing per doctor |
+| disease_trends | 24 | Cases per condition and age group |
+| insurance_analysis | 5 | Claims and costs per insurer |
 
-- Postgres: Airflow's Metadata Database
-- Scheduler: The Airflow component responsible for monitoring and triggering tasks
-- DAG Processor: The Airflow component responsible for parsing DAGs
-- API Server: The Airflow component responsible for serving the Airflow UI and API
-- Triggerer: The Airflow component responsible for triggering deferred tasks
-
-When all five containers are ready the command will open the browser to the Airflow UI at http://localhost:8080/. You should also be able to access your Postgres Database at 'localhost:5432/postgres' with username 'postgres' and password 'postgres'.
-
-Note: If you already have either of the above ports allocated, you can either [stop your existing Docker containers or change the port](https://www.astronomer.io/docs/astro/cli/troubleshoot-locally#ports-are-not-available-for-my-local-airflow-webserver).
-
-Deploy Your Project to Astronomer
-=================================
-
-If you have an Astronomer account, pushing code to a Deployment on Astronomer is simple. For deploying instructions, refer to Astronomer documentation: https://www.astronomer.io/docs/astro/deploy-code/
-
-Contact
-=======
-
-The Astronomer CLI is maintained with love by the Astronomer team. To report a bug or suggest a change, reach out to our support.
+## PII Handling
+Patient names are irreversibly hashed with SHA256 at the Silver layer.
+Original names are dropped. Only anonymous patient_id flows to Gold.
